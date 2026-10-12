@@ -478,7 +478,7 @@ const EMERGENCIES = [
       "Do not ignore repeated forceful vomiting, blood in vomit, or signs of dehydration — seek medical care."
     ]
   }
-
+};
 
   },
   tl: {
