@@ -19,11 +19,22 @@
         <p class="tagline">Emergency response, organized and usable offline</p>
       </div>
     </div>
+    <!-- Custom Languages Tab -->
+<div class="language-selector">
+  <label for="lang-select">🌐 Language:</label>
+  <select id="lang-select" onchange="changeLanguage(this.value)">
+    <option value="en">English</option>
+    <option value="tl">Tagalog (Filipino)</option>
+  </select>
+</div>
+
+<!-- Hidden Google Translate Element -->
+<div id="google_translate_element" style="display:none;"></div>
     <div class="header-actions">
       <span id="offlineBadge" class="offline-badge">Checking offline status</span>
       <button id="installBtn" class="btn btn-install" type="button" hidden>Install App</button>
       <button id="printBtn" class="btn btn-print" type="button">Print / Save PDF</button>
-    </div>
+        </div>
   </header>
 
   <div class="search-bar">
@@ -49,5 +60,38 @@
 
   <script src="data.js"></script>
   <script src="app.js"></script>
+  <script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    includedLanguages: 'en,tl',
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+}
+
+function changeLanguage(langCode) {
+  var googleSelect = document.querySelector('select.goog-te-combo');
+  if (googleSelect) {
+    googleSelect.value = langCode;
+    googleSelect.dispatchEvent(new Event('change'));
+  }
+}
+</script>
+<script type="text/javascript" src="//://google.com"></script>
+
+<style>
+/* Completely hides Google Translate's banner toolbars and helper popups */
+.goog-te-banner-frame, .goog-te-balloon-frame, .google-te-banner-frame, .goog-tooltip {
+  display: none !important;
+}
+body {
+  top: 0px !important;
+}
+.goog-text-highlight {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+</style>
+
 </body>
 </html>
