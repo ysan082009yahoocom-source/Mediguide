@@ -1,3 +1,9 @@
+const appData = {
+  en: {
+    title: "Fast and Furious App",
+    description: "Welcome to the racing app!",
+    startButton: "Start Race",
+
 const EMERGENCIES = [
   {
     id: "severe-bleeding",
@@ -472,4 +478,56 @@ const EMERGENCIES = [
       "Do not ignore repeated forceful vomiting, blood in vomit, or signs of dehydration — seek medical care."
     ]
   }
-];
+
+
+  },
+  tl: {
+    title: "Mabilis at Matindi na App",
+    description: "Maligayang pagdating sa app ng karera!",
+    startButton: "Simulan ang Karera",
+   
+    const EMERGENCIES = [
+{
+id: "Malalang-pagdurugo",
+title: "Malalang-pagdurugo",
+icon: "🩸",
+keywords: ["pagdurugo", "dugo", "sugat", "hiwa", "gasgas", "laslas"],
+summary: "Kontrolin ang matinding pagkawala ng dugo mula sa sugat gamit ang pressure at mga bendahe.",
+callEmergency: [
+"Ang dugo ay bumulwak o patuloy na umaagos mula sa sugat",
+"Ang pagdurugo ay hindi tumitigil pagkatapos ng 10 minuto ng matatag na presyon",
+"Ang sugat ay malaki, malalim, o sanhi ng isang malaking pinsala",
+"Ang tao ay nagpapakita ng mga palatandaan ng pagkabigla (maputla, madulas, nalilito, mahina)"
+],
+symptoms: [
+"Tuloy-tuloy o bumubulwak na pagdaloy ng dugo",
+"Pagtagos ng dugo sa damit o mga bendahe",
+"Maputla, malamig, at malagkit na balat",
+"Pagkahilo, panghihina, o pagkalito",
+"Mabilis na tibok ng puso o mababaw na paghinga"
+],
+steps: [
+"Magsuot ng disposable gloves kung mayroon at ilantad ang sugat.",
+"Diinan nang maigi at direkta ang sugat gamit ang sterile gauze pad o malinis na tela.",
+"Kung tumagos ang dugo, magdagdag ng isa pang gauze sa ibabaw nito — huwag tanggalin ang unang patong.",
+"Kung ang sugat ay nasa braso o binti at walang hinalang bali, itaas ito nang mas mataas sa antas ng puso.",
+"Kapag huminto na ang pagdurugo, itali nang maayos ang dressing gamit ang benda.",
+"Panatilihing mainit ang katawan, hindi gumagalaw, at kalmado ang tao, at bantayan ang mga senyales ng shock.",
+"Kung malala ang pagdurugo, ipagpatuloy ang pagdiin dito hanggang sa dumating ang tulong-medikal."
+],
+medKit: ["Mga guwantes na panandalian ang gamit", "Mga sterile na gauze pad", "Roller bandage", "Adhesive tape", "Trauma dressing", "Mga antiseptic wipe", "Emergency blanket"],
+mga pag-iingat: [
+"Huwag tanggalin ang nakabaong bagay — lagyan ng sapin sa paligid nito at diinan ang bahaging katabi nito.",
+"Huwag tanggalin ang unang dressing na basang-basa na ng dugo; magdagdag na lamang ng mga patong sa ibabaw nito.",
+"Huwag gumamit ng tourniquet maliban kung ikaw ay may kaukulang pagsasanay at ang pagdurugo ay nagbabanta sa buhay."
+]
+},
+};
+
+      
+  }
+};
+
+// Export it so app.js can see it
+export default appData;
+
