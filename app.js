@@ -222,5 +222,55 @@ window.addEventListener('appinstalled', () => {
   if (installBtn) {
     installBtn.setAttribute('hidden', '');
   }
+  // 1. Create and inject the custom Language Tab UI
+const langContainer = document.createElement('div');
+langContainer.className = 'language-selector';
+langContainer.style.padding = '10px';
+
+langContainer.innerHTML = `
+  <label for="lang-select">🌐 Language: </label>
+  <select id="lang-select" style="padding: 5px; border-radius: 4px;">
+    <option value="en">English</option>
+    <option value="tl">Tagalog</option>
+  </select>
+`;
+// Appends it to the body; you can alter document.body to a specific navbar selector if needed
+document.body.insertBefore(langContainer, document.body.firstChild); 
+
+// 2. Setup the hidden Google Translate script
+const hiddenTranslateDiv = document.createElement('div');
+hiddenTranslateDiv.id = 'google_translate_element';
+hiddenTranslateDiv.style.display = 'none';
+document.body.appendChild(hiddenTranslateDiv);
+
+const googleScript = document.createElement('script');
+googleScript.src = '//://google.com';
+document.body.appendChild(googleScript);
+
+// 3. Initialize Google Translate
+window.googleTranslateElementInit = function() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    includedLanguages: 'en,tl'
+  }, 'google_translate_element');
+};
+
+// 4. Listen for language changes on your tab
+document.getElementById('lang-select').addEventListener('change', function(e) {
+  const googleSelect = document.querySelector('select.goog-te-combo');
+  if (googleSelect) {
+    googleSelect.value = e.target.value;
+    googleSelect.dispatchEvent(new Event('change'));
+  }
+});
+
+// 5. Hide ugly Google styling elements
+const translationStyles = document.createElement('style');
+translationStyles.innerHTML = `
+  .goog-te-banner-frame, .goog-text-highlight, .goog-tooltip { display: none !important; }
+  body { top: 0px !important; }
+`;
+document.head.appendChild(translationStyles);
+
 });
 
