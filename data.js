@@ -572,7 +572,7 @@ precautions: [
         medKitTitle: "🧰 Med kit items to use",
         doNotTitle: "⛔ Do NOT"
   }
-    } // <--- Closes the Nausea object item
+    },
   ], 
   tl: [
     {
