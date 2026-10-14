@@ -165,7 +165,7 @@ precautions: [
         medKitTitle: "🧰 Med kit items to use",
         doNotTitle: "⛔ Do NOT"  
        } },
-{
+    {
 "id": "Stomach Ache",
 "title": "Stomach Ache/Pain",
 "icon": "🤮",
@@ -205,7 +205,7 @@ precautions: [
         firstAidTitle: "🩹 First aid — step by step",
         medKitTitle: "🧰 Med kit items to use",
         doNotTitle: "⛔ Do NOT"
-},
+           } },
 {
 id: "fractures",
 title: "Fractures & Sprains",
@@ -246,7 +246,7 @@ precautions: [
         firstAidTitle: "🩹 First aid — step by step",
         medKitTitle: "🧰 Med kit items to use",
         doNotTitle: "⛔ Do NOT"
-},
+       } },
 {
 id: "anaphylaxis",
 title: "Allergic Reaction (Anaphylaxis)",
