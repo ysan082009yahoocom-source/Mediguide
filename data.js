@@ -201,7 +201,8 @@ precautions: [
 "Do not ignore localized pain that migrates to the lower right side of the abdomen."
 ],
 uiLabels: {
-emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+emptyState: '🔍 No emergencies match your search.
+Try "burn", "choking", "seizure", or "bleeding".',
 callEmergencyTitle: "📞 Call emergency services immediately if:",
 recognizeSigns: "👀 Recognize the signs",
 firstAidTitle: "🩹 First aid — step by step",
@@ -243,7 +244,8 @@ precautions: [
 "Do not apply ice directly to bare skin."
 ],
 uiLabels: {
-emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+emptyState: '🔍 No emergencies match your search.
+Try "burn", "choking", "seizure", or "bleeding".',
 callEmergencyTitle: "📞 Call emergency services immediately if:",
 recognizeSigns: "👀 Recognize the signs",
 firstAidTitle: "🩹 First aid — step by step",
@@ -284,7 +286,8 @@ precautions: [
 "Do not use another person's auto-injector unless trained and authorized."
 ],
 uiLabels: {
-emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+emptyState: '🔍 No emergencies match your search.
+Try "burn", "choking", "seizure", or "bleeding".',
 callEmergencyTitle: "📞 Call emergency services immediately if:",
 recognizeSigns: "👀 Recognize the signs",
 firstAidTitle: "🩹 First aid — step by step",
@@ -327,7 +330,8 @@ precautions: [
 "Do not offer food or drink until they are fully alert."
 ],
 uiLabels: {
-emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+emptyState: '🔍 No emergencies match your search.
+Try "burn", "choking", "seizure", or "bleeding".',
 callEmergencyTitle: "📞 Call emergency services immediately if:",
 recognizeSigns: "👀 Recognize the signs",
 firstAidTitle: "🩹 First aid — step by step",
@@ -370,7 +374,8 @@ precautions: [
 "Do not leave the person alone."
 ],
 uiLabels: {
-emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+emptyState: '🔍 No emergencies match your search.
+Try "burn", "choking", "seizure", or "bleeding".',
 callEmergencyTitle: "📞 Call emergency services immediately if:",
 recognizeSigns: "👀 Recognize the signs",
 firstAidTitle: "🩹 First aid — step by step",
@@ -410,10 +415,11 @@ precautions: [
 "Do not rub or massage cold limbs — this can cause further injury.",
 "Do not give alcohol or caffeine.",
 "Do not warm too quickly with hot water or direct heat.",
-"Do not assume a person with no signs of life cannot be saved — “not dead until warm and dead.”"
+"Do not assume a person with no signs of life cannot be saved — "not dead until warm and dead.""
 ],
 uiLabels: {
-emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+emptyState: '🔍 No emergencies match your search.
+Try "burn", "choking", "seizure", or "bleeding".',
 callEmergencyTitle: "📞 Call emergency services immediately if:",
 recognizeSigns: "👀 Recognize the signs",
 firstAidTitle: "🩹 First aid — step by step",
@@ -454,7 +460,8 @@ precautions: [
 "Do not try to neutralize the poison with vinegar, lemon, or other home remedies."
 ],
 uiLabels: {
-emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+emptyState: '🔍 No emergencies match your search.
+Try "burn", "choking", "seizure", or "bleeding".',
 callEmergencyTitle: "📞 Call emergency services immediately if:",
 recognizeSigns: "👀 Recognize the signs",
 firstAidTitle: "🩹 First aid — step by step",
@@ -494,7 +501,8 @@ precautions: [
 "Do not wait to see if symptoms improve. Time lost is brain lost."
 ],
 uiLabels: {
-emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+emptyState: '🔍 No emergencies match your search.
+Try "burn", "choking", "seizure", or "bleeding".',
 callEmergencyTitle: "📞 Call emergency services immediately if:",
 recognizeSigns: "👀 Recognize the signs",
 firstAidTitle: "🩹 First aid — step by step",
@@ -534,7 +542,8 @@ precautions: [
 "Do not leave the person alone."
 ],
 uiLabels: {
-emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+emptyState: '🔍 No emergencies match your search.
+Try "burn", "choking", "seizure", or "bleeding".',
 callEmergencyTitle: "📞 Call emergency services immediately if:",
 recognizeSigns: "👀 Recognize the signs",
 firstAidTitle: "🩹 First aid — step by step",
@@ -576,7 +585,8 @@ precautions: [
 "Do not ignore repeated forceful vomiting, blood in vomit, or signs of dehydration — seek medical care."
 ],
 uiLabels: {
-emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+emptyState: '🔍 No emergencies match your search.
+Try "burn", "choking", "seizure", or "bleeding".',
 callEmergencyTitle: "📞 Call emergency services immediately if:",
 recognizeSigns: "👀 Recognize the signs",
 firstAidTitle: "🩹 First aid — step by step",
@@ -621,7 +631,8 @@ precautions: [
 "Huwag gumamit ng tourniquet maliban kung ikaw ay sanay at ang pagdurugo ay kritikal sa buhay."
 ],
 uiLabels: {
-emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang “burn”, “choking”, “seizure”, o “bleeding”.',
+emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.
+Subukan ang "burn", "choking", "seizure", o "bleeding".',
 callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
 recognizeSigns: "👀 Kilalanin ang mga senyales",
 firstAidTitle: "🩹 Unang lunas — hakbang-hakbang",
@@ -655,7 +666,7 @@ steps: [
 "Alisin ang mga singsing, orasan, o masikip na damit bago magsimula ang pamamaga.",
 "Takpan ang paso nang maluwag gamit ang sterile non-stick dressing o malinis na cling film.",
 "Protektahan ang tao sa lamig at bantayan kung magpapakita ng shock.",
-"Huwag putukin ang mga paltos — iwanang buo upang mabawasan ang panganib ng impeksyon."
+"Huwag putukin ang mga paltos — iwanang buo upang mabawasan ang panganib ng inheksyon."
 ],
 medKit: ["Burn gel / hydrogel dressing", "Sterile non-stick dressings", "Cling film", "Running water", "Disposable gloves", "Emergency blanket"],
 precautions: [
@@ -664,7 +675,8 @@ precautions: [
 "Huwag gumamit ng mga adhesive dressing nang direkta sa pasong balat."
 ],
 uiLabels: {
-emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang “burn”, “choking”, “seizure”, o “bleeding”.',
+emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.
+Subukan ang "burn", "choking", "seizure", o "bleeding".',
 callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
 recognizeSigns: "👀 Kilalanin ang mga senyales",
 firstAidTitle: "🩹 Unang lunas — hakbang-hangbang",
