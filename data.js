@@ -163,9 +163,8 @@ precautions: [
         recognizeSigns: "👀 Recognize the signs",
         firstAidTitle: "🩹 First aid — step by step",
         medKitTitle: "🧰 Med kit items to use",
-        doNotTitle: "⛔ Do NOT"
-  
-},
+        doNotTitle: "⛔ Do NOT"  
+       } },
 {
 "id": "Stomach Ache",
 "title": "Stomach Ache/Pain",
