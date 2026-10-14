@@ -573,7 +573,7 @@ precautions: [
         doNotTitle: "⛔ Do NOT"
   }
     },
-  ], 
+  ];
   tl: [
     {
       id: "severe-bleeding",
