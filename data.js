@@ -34,7 +34,6 @@ const appData = {
         "Do not remove the first blood-soaked dressing; add layers on top.",
         "Do not use a tourniquet unless you are trained and bleeding is life-threatening."
       ],
-      // Custom labels needed for the UI shell template
       uiLabels: {
         emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
         callEmergencyTitle: "📞 Call emergency services immediately if:",
@@ -86,39 +85,39 @@ const appData = {
         medKitTitle: "🧰 Med kit items to use",
         doNotTitle: "⛔ Do NOT"
       }
-        },
-  {
-    id: "choking-adult",
-     title: "Choking (Adult & Child)",
-     icon: "🤢",
-     keywords: ["choking", "airway", "blocked", "heimlich", "abdominal thrust", "cannot breathe"],
-summary: "Clear a blocked airway with back blows and abdominal thrusts.",
-callEmergency: [
-"The person becomes unresponsive",
-"You cannot clear the blockage after several attempts",
-"The person stops breathing"
-],
-symptoms: [
-"Clutching the throat with one or both hands",
-"Inability to speak, cough, or breathe",
-"Noisy or silent breathing attempts",
-"Face turning red, then pale or blue",
-"Panic or loss of consciousness"
-],
-steps: [
-"Ask: “Are you choking?” If they can cough or speak, encourage coughing.",
-"If they cannot cough or breathe, lean them forward and give up to 5 sharp back blows between the shoulder blades.",
-"If unsuccessful, stand behind them and give up to 5 abdominal thrusts (Heimlich maneuver).",
-"Alternate 5 back blows and 5 abdominal thrusts until the object is expelled.",
-"If the person becomes unresponsive, start CPR and call emergency services.",
-"After the object is expelled, keep the person still and seek medical evaluation."
-],
-medKit: ["CPR face shield", "Gloves", "Phone to call emergency services"],
-precautions: [
-"Do not perform abdominal thrusts on a pregnant person — use chest thrusts.",
-"Do not put your fingers in the mouth to blindly sweep for an object.",
-"Do not ignore a partial blockage — monitor closely and seek help if it worsens."
-  ],
+    },
+    {
+      id: "choking-adult",
+      title: "Choking (Adult & Child)",
+      icon: "🤢",
+      keywords: ["choking", "airway", "blocked", "heimlich", "abdominal thrust", "cannot breathe"],
+      summary: "Clear a blocked airway with back blows and abdominal thrusts.",
+      callEmergency: [
+        "The person becomes unresponsive",
+        "You cannot clear the blockage after several attempts",
+        "The person stops breathing"
+      ],
+      symptoms: [
+        "Clutching the throat with one or both hands",
+        "Inability to speak, cough, or breathe",
+        "Noisy or silent breathing attempts",
+        "Face turning red, then pale or blue",
+        "Panic or loss of consciousness"
+      ],
+      steps: [
+        "Ask: “Are you choking?” If they can cough or speak, encourage coughing.",
+        "If they cannot cough or breathe, lean them forward and give up to 5 sharp back blows between the shoulder blades.",
+        "If unsuccessful, stand behind them and give up to 5 abdominal thrusts (Heimlich maneuver).",
+        "Alternate 5 back blows and 5 abdominal thrusts until the object is expelled.",
+        "If the person becomes unresponsive, start CPR and call emergency services.",
+        "After the object is expelled, keep the person still and seek medical evaluation."
+      ],
+      medKit: ["CPR face shield", "Gloves", "Phone to call emergency services"],
+      precautions: [
+        "Do not perform abdominal thrusts on a pregnant person — use chest thrusts.",
+        "Do not put your fingers in the mouth to blindly sweep for an object.",
+        "Do not ignore a partial blockage — monitor closely and seek help if it worsens."
+      ],
       uiLabels: {
         emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
         callEmergencyTitle: "📞 Call emergency services immediately if:",
@@ -126,87 +125,92 @@ precautions: [
         firstAidTitle: "🩹 First aid — step by step",
         medKitTitle: "🧰 Med kit items to use",
         doNotTitle: "⛔ Do NOT"
-}  },
-   {
-id: "cpr",
-title: "CPR / Cardiac Arrest",
-icon: "❤️",
-keywords: ["cpr", "cardiac", "heart", "arrest", "unresponsive", "not breathing", "chest compressions"],
-summary: ["Keep blood flowing with chest compressions and rescue breaths."],
-callEmergency: [
-  "The person is unresponsive and not breathing normally — call immediately before starting CPR"],
-symptoms: [
-"Sudden collapse",
-"Unresponsiveness to voice or touch",
-"No breathing or only gasping (agonal breathing)",
-"No pulse or signs of circulation"
-],
-steps: [
-"Check the scene for safety, then tap and shout to check responsiveness.",
-"Call emergency services and get an AED if available.",
-"Place the heel of one hand on the center of the chest; place the other hand on top and interlock fingers.",
-"Push hard and fast — at least 5 cm (2 inches) deep at 100–120 compressions per minute.",
-"Allow the chest to fully recoil between compressions.",
-"If trained, give 2 rescue breaths after every 30 compressions; otherwise continue hands-only CPR.",
-"Use an AED as soon as it arrives and follow its voice prompts.",
-"Continue until emergency help arrives or the person starts breathing normally."
-],
-medKit: ["CPR face shield", "Pocket mask", "AED (if available)", "Gloves"],
-precautions: [
-"Do not stop compressions except to use an AED or if the person clearly recovers.",
-"Do not delay compressions to check for a pulse for more than 10 seconds.",
-"Do not perform rescue breaths if untrained or unwilling — hands-only CPR still saves lives."
-  ],
-       uiLabels: {
-        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
-        callEmergencyTitle: "📞 Call emergency services immediately if:",
-        recognizeSigns: "👀 Recognize the signs",
-        firstAidTitle: "🩹 First aid — step by step",
-        medKitTitle: "🧰 Med kit items to use",
-        doNotTitle: "⛔ Do NOT"  
-       } },
+      }
+    },
     {
-"id": "Stomach Ache",
-"title": "Stomach Ache/Pain",
-"icon": "🤮",
-"keywords": ["stomach ache", "belly pain", "abdominal cramps", "indigestion", "cramping", "heartburn", "bloating"],
-"summary": "Rest comfortably, stay hydrated, and monitor for severe symptoms that require emergency medical care.",
-"callEmergency": [
-"The pain is sudden, severe, and unbearable.",
-"The abdomen is rigid, hard, or highly sensitive to the touch.",
-"Accompanied by persistent vomiting, vomiting blood, or bloody/black stools.",
-"Accompanied by high fever, dizziness, fainting, or difficulty breathing."
-],
-"symptoms": [
-"Dull ache, sharp pain, or burning sensation in the abdomen",
-"Abdominal cramping or bloating",
-"Nausea, vomiting, or loss of appetite",
-"Gas, indigestion, or changes in bowel movements"
-],
-"steps": [
-"Have the person rest in a comfortable position, such as lying down with knees bent or slightly elevated.",
-"Loosen tight clothing around the waist and abdomen.",
-"Apply a warm compress or heating pad to the abdomen for 15-20 minutes to soothe cramps.",
-"Encourage slow sips of water, clear broths, or herbal teas like peppermint or ginger.",
-"Avoid giving solid foods, caffeine, alcohol, carbonated drinks, or dairy until the pain subsides.",
-"Monitor for any worsening signs or red flag symptoms that may indicate a surgical emergency like appendicitis."
-],
-"medKit": ["Heating pad or warm compress", "Antacids (for indigestion)", "Electrolyte solutions", "Ginger or peppermint tea bags"],
-"precautions": [
-"Do not give aspirin, ibuprofen, or other NSAIDs without a doctor's advice, as they can irritate the stomach lining.",
-"Do not give any laxatives or enemas, especially if appendicitis is suspected.",
-"Do not force the person to eat if they are experiencing nausea or active pain.",
-"Do not ignore localized pain that migrates to the lower right side of the abdomen."
-  ],
-           uiLabels: {
+      id: "cpr",
+      title: "CPR / Cardiac Arrest",
+      icon: "❤️",
+      keywords: ["cpr", "cardiac", "heart", "arrest", "unresponsive", "not breathing", "chest compressions"],
+      summary: "Keep blood flowing with chest compressions and rescue breaths.",
+      callEmergency: [
+        "The person is unresponsive and not breathing normally — call immediately before starting CPR"
+      ],
+      symptoms: [
+        "Sudden collapse",
+        "Unresponsiveness to voice or touch",
+        "No breathing or only gasping (agonal breathing)",
+        "No pulse or signs of circulation"
+      ],
+      steps: [
+        "Check the scene for safety, then tap and shout to check responsiveness.",
+        "Call emergency services and get an AED if available.",
+        "Place the heel of one hand on the center of the chest; place the other hand on top and interlock fingers.",
+        "Push hard and fast — at least 5 cm (2 inches) deep at 100–120 compressions per minute.",
+        "Allow the chest to fully recoil between compressions.",
+        "If trained, give 2 rescue breaths after every 30 compressions; otherwise continue hands-only CPR.",
+        "Use an AED as soon as it arrives and follow its voice prompts.",
+        "Continue until emergency help arrives or the person starts breathing normally."
+      ],
+      medKit: ["CPR face shield", "Pocket mask", "AED (if available)", "Gloves"],
+      precautions: [
+        "Do not stop compressions except to use an AED or if the person clearly recovers.",
+        "Do not delay compressions to check for a pulse for more than 10 seconds.",
+        "Do not perform rescue breaths if untrained or unwilling — hands-only CPR still saves lives."
+      ],
+      uiLabels: {
         emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
         callEmergencyTitle: "📞 Call emergency services immediately if:",
         recognizeSigns: "👀 Recognize the signs",
         firstAidTitle: "🩹 First aid — step by step",
         medKitTitle: "🧰 Med kit items to use",
         doNotTitle: "⛔ Do NOT"
-           } },
-    [ {
+      }
+    },
+    {
+      id: "Stomach Ache",
+      title: "Stomach Ache/Pain",
+      icon: "🤮",
+      keywords: ["stomach ache", "belly pain", "abdominal cramps", "indigestion", "cramping", "heartburn", "bloating"],
+      summary: "Rest comfortably, stay hydrated, and monitor for severe symptoms that require emergency medical care.",
+      callEmergency: [
+        "The pain is sudden, severe, and unbearable.",
+        "The abdomen is rigid, hard, or highly sensitive to the touch.",
+        "Accompanied by persistent vomiting, vomiting blood, or bloody/black stools.",
+        "Accompanied by high fever, dizziness, fainting, or difficulty breathing."
+      ],
+      symptoms: [
+        "Dull ache, sharp pain, or burning sensation in the abdomen",
+        "Abdominal cramping or bloating",
+        "Nausea, vomiting, or loss of appetite",
+        "Gas, indigestion, or changes in bowel movements"
+      ],
+      steps: [
+        "Have the person rest in a comfortable position, such as lying down with knees bent or slightly elevated.",
+        "Loosen tight clothing around the waist and abdomen.",
+        "Apply a warm compress or heating pad to the abdomen for 15-20 minutes to soothe cramps.",
+        "Encourage slow sips of water, clear broths, or herbal teas like peppermint or ginger.",
+"Avoid giving solid foods, caffeine, alcohol, carbonated drinks, or dairy until the pain subsides.",
+"Monitor for any worsening signs or red flag symptoms that may indicate a surgical emergency like appendicitis."
+],
+medKit: ["Heating pad or warm compress", "Antacids (for indigestion)", "Electrolyte solutions", "Ginger or peppermint tea bags"],
+precautions: [
+"Do not give aspirin, ibuprofen, or other NSAIDs without a doctor's advice, as they can irritate the stomach lining.",
+"Do not give any laxatives or enemas, especially if appendicitis is suspected.",
+"Do not force the person to eat if they are experiencing nausea or active pain.",
+"Do not ignore localized pain that migrates to the lower right side of the abdomen."
+],
+uiLabels: {
+emptyState: '🔍 No emergencies match your search.
+Try “burn”, “choking”, “seizure”, or “bleeding”.',
+callEmergencyTitle: "📞 Call emergency services immediately if:",
+recognizeSigns: "👀 Recognize the signs",
+firstAidTitle: "🩹 First aid — step by step",
+medKitTitle: "🧰 Med kit items to use",
+doNotTitle: "⛔ Do NOT"
+}
+},
+{
 id: "fractures",
 title: "Fractures & Sprains",
 icon: "🦴",
@@ -239,20 +243,22 @@ precautions: [
 "Do not move a person with a suspected spine injury unless they are in danger.",
 "Do not apply ice directly to bare skin."
 ],
-       uiLabels: {
-        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
-        callEmergencyTitle: "📞 Call emergency services immediately if:",
-        recognizeSigns: "👀 Recognize the signs",
-        firstAidTitle: "🩹 First aid — step by step",
-        medKitTitle: "🧰 Med kit items to use",
-        doNotTitle: "⛔ Do NOT"
-       } },
+uiLabels: {
+emptyState: '🔍 No emergencies match your search.
+Try “burn”, “choking”, “seizure”, or “bleeding”.',
+callEmergencyTitle: "📞 Call emergency services immediately if:",
+recognizeSigns: "👀 Recognize the signs",
+firstAidTitle: "🩹 First aid — step by step",
+medKitTitle: "🧰 Med kit items to use",
+doNotTitle: "⛔ Do NOT"
+}
+},
 {
 id: "anaphylaxis",
 title: "Allergic Reaction (Anaphylaxis)",
 icon: "🐝",
 keywords: ["allergy", "anaphylaxis", "epinephrine", "epipen", "bee sting", "swelling", "hives"],
-summary: ["Recognize a severe allergic reaction and use an epinephrine auto-injector."],
+summary: "Recognize a severe allergic reaction and use an epinephrine auto-injector.",
 callEmergency: [
 "Any signs of anaphylaxis are present — call immediately even if an auto-injector is used"
 ],
@@ -279,14 +285,16 @@ precautions: [
 "Do not let the person stand or walk around after an injection.",
 "Do not use another person's auto-injector unless trained and authorized."
 ],
-       uiLabels: {
-        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
-        callEmergencyTitle: "📞 Call emergency services immediately if:",
-        recognizeSigns: "👀 Recognize the signs",
-        firstAidTitle: "🩹 First aid — step by step",
-        medKitTitle: "🧰 Med kit items to use",
-        doNotTitle: "⛔ Do NOT"
-       } },
+uiLabels: {
+emptyState: '🔍 No emergencies match your search.
+Try “burn”, “choking”, “seizure”, or “bleeding”.',
+callEmergencyTitle: "📞 Call emergency services immediately if:",
+recognizeSigns: "👀 Recognize the signs",
+firstAidTitle: "🩹 First aid — step by step",
+medKitTitle: "🧰 Med kit items to use",
+doNotTitle: "⛔ Do NOT"
+}
+},
 {
 id: "seizures",
 title: "Seizures",
@@ -321,14 +329,16 @@ precautions: [
 "Do not put anything in their mouth.",
 "Do not offer food or drink until they are fully alert."
 ],
-       uiLabels: {
-        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
-        callEmergencyTitle: "📞 Call emergency services immediately if:",
-        recognizeSigns: "👀 Recognize the signs",
-        firstAidTitle: "🩹 First aid — step by step",
-        medKitTitle: "🧰 Med kit items to use",
-        doNotTitle: "⛔ Do NOT"
-       } },
+uiLabels: {
+emptyState: '🔍 No emergencies match your search.
+Try “burn”, “choking”, “seizure”, or “bleeding”.',
+callEmergencyTitle: "📞 Call emergency services immediately if:",
+recognizeSigns: "👀 Recognize the signs",
+firstAidTitle: "🩹 First aid — step by step",
+medKitTitle: "🧰 Med kit items to use",
+doNotTitle: "⛔ Do NOT"
+}
+},
 {
 id: "heat-stroke",
 title: "Heat Exhaustion & Heat Stroke",
@@ -363,14 +373,16 @@ precautions: [
 "Do not use ice-cold water immersion unless trained — cool gradually.",
 "Do not leave the person alone."
 ],
-       uiLabels: {
-        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
-        callEmergencyTitle: "📞 Call emergency services immediately if:",
-        recognizeSigns: "👀 Recognize the signs",
-        firstAidTitle: "🩹 First aid — step by step",
-        medKitTitle: "🧰 Med kit items to use",
-        doNotTitle: "⛔ Do NOT"
-       } },
+uiLabels: {
+emptyState: '🔍 No emergencies match your search.
+Try “burn”, “choking”, “seizure”, or “bleeding”.',
+callEmergencyTitle: "📞 Call emergency services immediately if:",
+recognizeSigns: "👀 Recognize the signs",
+firstAidTitle: "🩹 First aid — step by step",
+medKitTitle: "🧰 Med kit items to use",
+doNotTitle: "⛔ Do NOT"
+}
+},
 {
 id: "hypothermia",
 title: "Hypothermia",
@@ -405,14 +417,16 @@ precautions: [
 "Do not warm too quickly with hot water or direct heat.",
 "Do not assume a person with no signs of life cannot be saved — “not dead until warm and dead.”"
 ],
-       uiLabels: {
-        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
-        callEmergencyTitle: "📞 Call emergency services immediately if:",
-        recognizeSigns: "👀 Recognize the signs",
-        firstAidTitle: "🩹 First aid — step by step",
-        medKitTitle: "🧰 Med kit items to use",
-        doNotTitle: "⛔ Do NOT"
-       } },
+uiLabels: {
+emptyState: '🔍 No emergencies match your search.
+Try “burn”, “choking”, “seizure”, or “bleeding”.',
+callEmergencyTitle: "📞 Call emergency services immediately if:",
+recognizeSigns: "👀 Recognize the signs",
+firstAidTitle: "🩹 First aid — step by step",
+medKitTitle: "🧰 Med kit items to use",
+doNotTitle: "⛔ Do NOT"
+}
+},
 {
 id: "poisoning",
 title: "Poisoning",
@@ -445,14 +459,16 @@ precautions: [
 "Do not give food or drink unless advised by a professional.",
 "Do not try to neutralize the poison with vinegar, lemon, or other home remedies."
 ],
-       uiLabels: {
-        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
-        callEmergencyTitle: "📞 Call emergency services immediately if:",
-        recognizeSigns: "👀 Recognize the signs",
-        firstAidTitle: "🩹 First aid — step by step",
-        medKitTitle: "🧰 Med kit items to use",
-        doNotTitle: "⛔ Do NOT"
-       } },
+uiLabels: {
+emptyState: '🔍 No emergencies match your search.
+Try “burn”, “choking”, “seizure”, or “bleeding”.',
+callEmergencyTitle: "📞 Call emergency services immediately if:",
+recognizeSigns: "👀 Recognize the signs",
+firstAidTitle: "🩹 First aid — step by step",
+medKitTitle: "🧰 Med kit items to use",
+doNotTitle: "⛔ Do NOT"
+}
+},
 {
 id: "stroke",
 title: "Stroke (FAST)",
@@ -484,14 +500,16 @@ precautions: [
 "Do not offer food or drink — swallowing may be impaired.",
 "Do not wait to see if symptoms improve. Time lost is brain lost."
 ],
-       uiLabels: {
-        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
-        callEmergencyTitle: "📞 Call emergency services immediately if:",
-        recognizeSigns: "👀 Recognize the signs",
-        firstAidTitle: "🩹 First aid — step by step",
-        medKitTitle: "🧰 Med kit items to use",
-        doNotTitle: "⛔ Do NOT"
-       } },
+uiLabels: {
+emptyState: '🔍 No emergencies match your search.
+Try “burn”, “choking”, “seizure”, or “bleeding”.',
+callEmergencyTitle: "📞 Call emergency services immediately if:",
+recognizeSigns: "👀 Recognize the signs",
+firstAidTitle: "🩹 First aid — step by step",
+medKitTitle: "🧰 Med kit items to use",
+doNotTitle: "⛔ Do NOT"
+}
+},
 {
 id: "shock",
 title: "Shock",
@@ -523,14 +541,16 @@ precautions: [
 "Do not give fluids by mouth.",
 "Do not leave the person alone."
 ],
-       uiLabels: {
-        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
-        callEmergencyTitle: "📞 Call emergency services immediately if:",
-        recognizeSigns: "👀 Recognize the signs",
-        firstAidTitle: "🩹 First aid — step by step",
-        medKitTitle: "🧰 Med kit items to use",
-        doNotTitle: "⛔ Do NOT"
-       } },
+uiLabels: {
+emptyState: '🔍 No emergencies match your search.
+Try “burn”, “choking”, “seizure”, or “bleeding”.',
+callEmergencyTitle: "📞 Call emergency services immediately if:",
+recognizeSigns: "👀 Recognize the signs",
+firstAidTitle: "🩹 First aid — step by step",
+medKitTitle: "🧰 Med kit items to use",
+doNotTitle: "⛔ Do NOT"
+}
+},
 {
 id: "nausea",
 title: "Nausea",
@@ -564,105 +584,106 @@ precautions: [
 "Do not offer heavy, fatty, spicy, or strong-smelling foods.",
 "Do not ignore repeated forceful vomiting, blood in vomit, or signs of dehydration — seek medical care."
 ],
-       uiLabels: {
-        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
-        callEmergencyTitle: "📞 Call emergency services immediately if:",
-        recognizeSigns: "👀 Recognize the signs",
-        firstAidTitle: "🩹 First aid — step by step",
-        medKitTitle: "🧰 Med kit items to use",
-        doNotTitle: "⛔ Do NOT"
-  }
-    },
-  ];
-  tl: [
-    {
-      id: "severe-bleeding",
-      title: "Malalang Pagdurugo",
-      icon: "🩸",
-      keywords: ["pagdurugo", "dugo", "sugat", "hiwa", "buka"],
-      summary: "Kontrolin ang malakas na pagkawala ng dugo mula sa sugat gamit ang presyur at mga bendahe.",
-      callEmergency: [
-        "Ang dugo ay bumubuga o patuloy na dumadaloy mula sa sugat",
-        "Hindi tumitigil ang pagdurugo pagkatapos ng 10 minutong madiing pagpindot",
-        "Ang sugat ay malaki, malalim, o sanhi ng isang malubhang pinsala",
-        "Ang tao ay nagpapakita ng mga palatandaan ng shock (maputla, malamig ang pawis, nalilito, mahina)"
-      ],
-      symptoms: [
-        "Patuloy o bumubugang daloy ng dugo",
-        "Dugo na tumatagos sa damit o bendahe",
-        "Maputla, malamig, at basang-basa ng pawis na balat",
-        "Pakahilo, panghihina, o pagkalito",
-        "Mabilis na tibok ng puso o mababaw na paghinga"
-      ],
-      steps: [
-        "Magsuot ng disposable gloves kung mayroon at ilantad ang sugat.",
-        "Maglapat ng madiin at direktang presyur gamit ang sterile gauze pad o malinis na tela.",
-        "Kung tumagos ang dugo, magdagdag pa ng gauze sa ibabaw — huwag alisin ang unang layer.",
-        "Kung ang sugat ay nasa braso o binti at walang pinaghihinalaang bali, itaas ito nang mas mataas sa puso.",
-        "I-secure ang dressing nang mahigpit gamit ang bandage kapag kontrolado na ang pagdurugo.",
-        "Panatilihing mainit, nakahiga, at kalmado ang tao, at bantayan ang mga senyales ng shock.",
-        "Ipagpatuloy ang madiing pagpindot hanggang sa dumating ang tulong kung malala ang pagdurugo."
-      ],
-      medKit: ["Disposable gloves", "Sterile gauze pads", "Roller bandage", "Adhesive tape", "Trauma dressing", "Antiseptic wipes", "Emergency blanket"],
-      precautions: [
-        "Huwag alisin ang bumaong bagay — lagyan ng padding sa paligid nito at idiin sa gilid nito.",
-        "Huwag alisin ang unang dressing na basa ng dugo; magdagdag na lang ng mga layer sa ibabaw.",
-        "Huwag gumamit ng tourniquet maliban kung ikaw ay sanay at ang pagdurugo ay kritikal sa buhay."
-      ],
-      uiLabels: {
-        emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang “burn”, “choking”, “seizure”, o “bleeding”.',
-        callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
-        recognizeSigns: "👀 Kilalanin ang mga senyales",
-        firstAidTitle: "🩹 Unang lunas — hakbang-hakbang",
-        medKitTitle: "🧰 Mga gamit sa Med kit na gagamitin",
-        doNotTitle: "⛔ Huwag Gawin"
-      }
-    },
-    {
-      id: "burns",
-      title: "Mga Pasiyok at Paso",
-      icon: "🔥",
-      keywords: ["paso", "pasiyok", "apoy", "init", "paltos", "mainit na tubig", "singaw"],
-      summary: "Palamigin ang paso, protektahan ang balat, at iwasan ang impeksyon.",
-      callEmergency: [
-        "Ang paso ay malaki, malalim, o nakakaapekto sa mukha, kamay, paa, kasukasuan, o ari",
-        "Ang paso ay sanhi ng kemikal o kuryente",
-        "Nahihirapang huminga ang tao o nakalanghap ng usok",
-        "Ang paso ay nasa bata, sanggol, o matanda",
-        "May mga palatandaan ng shock"
-      ],
-      symptoms: [
-        "Namumula at masakit na balat (superficial burn)",
-        "Mga paltos o basang balat (partial-thickness burn)",
-        "Puti, sunog, o namamanhid na balat (deep burn)",
-        "Pamamaga sa paligid ng pasong bahagi",
-        "Nahihirapang huminga kung nakalanghap ng usok"
-      ],
-      steps: [
-        "Ilayo ang tao mula sa pinagmulan ng paso.",
-        "Palamigin ang paso sa ilalim ng umaagos na tubig (hindi yelo) sa loob ng 10–20 minuto.",
-        "Alisin ang mga singsing, orasan, o masikip na damit bago magsimula ang pamamaga.",
-        "Takpan ang paso nang maluwag gamit ang sterile non-stick dressing o malinis na cling film.",
-        "Protektahan ang tao sa lamig at bantayan kung magpapakita ng shock.",
-        "Huwag putukin ang mga paltos — iwanang buo upang mabawasan ang panganib ng impeksyon."
-      ],
-      medKit: ["Burn gel / hydrogel dressing", "Sterile non-stick dressings", "Cling film", "Running water", "Disposable gloves", "Emergency blanket"],
-      precautions: [
-        "Huwag lagyan ng yelo, mantikilya, toothpaste, o mga cream ang paso.",
-        "Huwag putukin ang mga paltos o alisin ang damit na dumikit sa paso.",
-        "Huwag gumamit ng mga adhesive dressing nang direkta sa pasong balat."
-      ],
-      uiLabels: {
-        emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang “burn”, “choking”, “seizure”, o “bleeding”.',
-        callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
-        recognizeSigns: "👀 Kilalanin ang mga senyales",
-        firstAidTitle: "🩹 Unang lunas — hakbang-hakbang",
-        medKitTitle: "🧰 Mga gamit sa Med kit na gagamitin",
-        doNotTitle: "⛔ Huwag Gawin"
-      }
-    }
-    // ... Ipagpatuloy ang pagsasalin para sa iba pang emergencies dito
-  ]
+uiLabels: {
+emptyState: '🔍 No emergencies match your search.
+Try “burn”, “choking”, “seizure”, or “bleeding”.',
+callEmergencyTitle: "📞 Call emergency services immediately if:",
+recognizeSigns: "👀 Recognize the signs",
+firstAidTitle: "🩹 First aid — step by step",
+medKitTitle: "🧰 Med kit items to use",
+doNotTitle: "⛔ Do NOT"
+}
+}
+],
+tl: [
+{
+id: "severe-bleeding",
+title: "Malalang Pagdurugo",
+icon: "🩸",
+keywords: ["pagdurugo", "dugo", "sugat", "hiwa", "buka"],
+summary: "Kontrolin ang malakas na pagkawala ng dugo mula sa sugat gamit ang presyur at mga bendahe.",
+callEmergency: [
+"Ang dugo ay bumubuga o patuloy na dumadaloy mula sa sugat",
+"Hindi tumitigil ang pagdurugo pagkatapos ng 10 minutong madiing pagpindot",
+"Ang sugat ay malaki, malalim, o sanhi ng isang malubhang pinsala",
+"Ang tao ay nagpapakita ng mga palatandaan ng shock (maputla, malamig ang pawis, nalilito, mahina)"
+],
+symptoms: [
+"Patuloy o bumubugang daloy ng dugo",
+"Dugo na tumatagos sa damit o bendahe",
+"Maputla, malamig, at basang-basa ng pawis na balat",
+"Pakahilo, panghihina, o pagkalito",
+"Mabilis na tibok ng puso o mababaw na paghinga"
+],
+steps: [
+"Magsuot ng disposable gloves kung mayroon at ilantad ang sugat.",
+"Maglapat ng madiin at direktang presyur gamit ang sterile gauze pad o malinis na tela.",
+"Kung tumagos ang dugo, magdagdag pa ng gauze sa ibabaw — huwag alisin ang unang layer.",
+"Kung ang sugat ay nasa braso o binti at walang pinaghihinalaang bali, itaas ito nang mas mataas sa puso.",
+"I-secure ang dressing nang mahigpit gamit ang bandage kapag kontrolado na ang pagdurugo.",
+"Panatilihing mainit, nakahiga, at kalmado ang tao, at bantayan ang mga senyales ng shock.",
+"Ipagpatuloy ang madiing pagpindot hanggang sa dumating ang tulong kung malala ang pagdurugo."
+],
+medKit: ["Disposable gloves", "Sterile gauze pads", "Roller bandage", "Adhesive tape", "Trauma dressing", "Antiseptic wipes", "Emergency blanket"],
+precautions: [
+"Huwag alisin ang bumaong bagay — lagyan ng padding sa paligid nito at idiin sa gilid nito.",
+"Huwag alisin ang unang dressing na basa ng dugo; magdagdag na lang ng mga layer sa ibabaw.",
+"Huwag gumamit ng tourniquet maliban kung ikaw ay sanay at ang pagdurugo ay kritikal sa buhay."
+],
+uiLabels: {
+emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.
+Subukan ang “burn”, “choking”, “seizure”, o “bleeding”.',
+callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
+recognizeSigns: "👀 Kilalanin ang mga senyales",
+firstAidTitle: "🩹 Unang lunas — hakbang-hakbang",
+medKitTitle: "🧰 Mga gamit sa Med kit na gagamitin",
+doNotTitle: "⛔ Huwag Gawin"
+}
+},
+{
+id: "burns",
+title: "Mga Pasiyok at Paso",
+icon: "🔥",
+keywords: ["paso", "pasiyok", "apoy", "init", "paltos", "mainit na tubig", "singaw"],
+summary: "Palamigin ang paso, protektahan ang balat, at iwasan ang impeksyon.",
+callEmergency: [
+"Ang paso ay malaki, malalim, o nakakaapekto sa mukha, kamay, paa, kasukasuan, o ari",
+"Ang paso ay sanhi ng kemikal o kuryente",
+"Nahihirapang huminga ang tao o nakalanghap ng usok",
+"Ang paso ay nasa bata, sanggol, o matanda",
+"May mga palatandaan ng shock"
+],
+symptoms: [
+"Namumula at masakit na balat (superficial burn)",
+"Mga paltos o basang balat (partial-thickness burn)",
+"Puti, sunog, o namamanhid na balat (deep burn)",
+"Pamamaga sa paligid ng pasong bahagi",
+"Nahihirapang huminga kung nakalanghap ng usok"
+],
+steps: [
+"Ilayo ang tao mula sa pinagmulan ng paso.",
+"Palamigin ang paso sa ilalim ng umaagos na tubig (hindi yelo) sa loob ng 10–20 minuto.",
+"Alisin ang mga singsing, orasan, o masikip na damit bago magsimula ang pamamaga.",
+"Takpan ang paso nang maluwag gamit ang sterile non-stick dressing o malinis na cling film.",
+"Protektahan ang tao sa lamig at bantayan kung magpapakita ng shock.",
+"Huwag putukin ang mga paltos — iwanang buo upang mabawasan ang panganib ng impeksyon."
+],
+medKit: ["Burn gel / hydrogel dressing", "Sterile non-stick dressings", "Cling film", "Running water", "Disposable gloves", "Emergency blanket"],
+precautions: [
+"Huwag lagyan ng yelo, mantikilya, toothpaste, o mga cream ang paso.",
+"Huwag putukin ang mga paltos o alisin ang damit na dumikit sa paso.",
+"Huwag gumamit ng mga adhesive dressing nang direkta sa pasong balat."
+],
+uiLabels: {
+emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.
+Subukan ang “burn”, “choking”, “seizure”, o “bleeding”.',
+callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
+recognizeSigns: "👀 Kilalanin ang mga senyales",
+firstAidTitle: "🩹 Unang lunas — hakbang-hangbang",
+medKitTitle: "🧰 Mga gamit sa Med kit na gagamitin",
+doNotTitle: "⛔ Huwag Gawin"
+}
+}
+]
 };
-
 export default appData;
