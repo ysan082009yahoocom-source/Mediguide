@@ -409,8 +409,7 @@ medKit: ["Emergency blanket", "Warm blankets / sleeping bag", "Warm packs", "War
 precautions: [
   "Do not rub or massage cold limbs — this can cause further injury.",
   "Do not give alcohol or caffeine.",
-  "Do not warm too quickly with hot water or direct heat.",
-  "Do not assume a person with no signs of life cannot be saved — “not dead until warm and dead.”"
+  "Do not warm too quickly with hot water or direct heat."
 ],
      uiLabels: {
         emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
