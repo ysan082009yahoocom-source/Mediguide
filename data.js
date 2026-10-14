@@ -286,7 +286,7 @@ precautions: [
         firstAidTitle: "🩹 First aid — step by step",
         medKitTitle: "🧰 Med kit items to use",
         doNotTitle: "⛔ Do NOT"
-},
+       } },
 {
 id: "seizures",
 title: "Seizures",
@@ -328,7 +328,7 @@ precautions: [
         firstAidTitle: "🩹 First aid — step by step",
         medKitTitle: "🧰 Med kit items to use",
         doNotTitle: "⛔ Do NOT"
-},
+       } },
 {
 id: "heat-stroke",
 title: "Heat Exhaustion & Heat Stroke",
@@ -370,7 +370,7 @@ precautions: [
         firstAidTitle: "🩹 First aid — step by step",
         medKitTitle: "🧰 Med kit items to use",
         doNotTitle: "⛔ Do NOT"
-},
+       } },
 {
 id: "hypothermia",
 title: "Hypothermia",
@@ -412,7 +412,7 @@ precautions: [
         firstAidTitle: "🩹 First aid — step by step",
         medKitTitle: "🧰 Med kit items to use",
         doNotTitle: "⛔ Do NOT"
-},
+       } },
 {
 id: "poisoning",
 title: "Poisoning",
@@ -452,7 +452,7 @@ precautions: [
         firstAidTitle: "🩹 First aid — step by step",
         medKitTitle: "🧰 Med kit items to use",
         doNotTitle: "⛔ Do NOT"
-},
+       } },
 {
 id: "stroke",
 title: "Stroke (FAST)",
@@ -491,7 +491,7 @@ precautions: [
         firstAidTitle: "🩹 First aid — step by step",
         medKitTitle: "🧰 Med kit items to use",
         doNotTitle: "⛔ Do NOT"
-},
+       } },
 {
 id: "shock",
 title: "Shock",
@@ -530,7 +530,7 @@ precautions: [
         firstAidTitle: "🩹 First aid — step by step",
         medKitTitle: "🧰 Med kit items to use",
         doNotTitle: "⛔ Do NOT"
-},
+       } },
 {
 id: "nausea",
 title: "Nausea",
