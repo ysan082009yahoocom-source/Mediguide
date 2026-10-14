@@ -571,9 +571,9 @@ precautions: [
         firstAidTitle: "🩹 First aid — step by step",
         medKitTitle: "🧰 Med kit items to use",
         doNotTitle: "⛔ Do NOT"
-}
-];
-  ],
+  }
+    } // <--- Closes the Nausea object item
+  ], 
   tl: [
     {
       id: "severe-bleeding",
