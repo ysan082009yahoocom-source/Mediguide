@@ -200,15 +200,14 @@ precautions: [
 "Do not force the person to eat if they are experiencing nausea or active pain.",
 "Do not ignore localized pain that migrates to the lower right side of the abdomen."
 ],
-uiLabels: {
-emptyState: '🔍 No emergencies match your search.
-Try "burn", "choking", "seizure", or "bleeding".',
-callEmergencyTitle: "📞 Call emergency services immediately if:",
-recognizeSigns: "👀 Recognize the signs",
-firstAidTitle: "🩹 First aid — step by step",
-medKitTitle: "🧰 Med kit items to use",
-doNotTitle: "⛔ Do NOT"
-}
+     uiLabels: {
+        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+        callEmergencyTitle: "📞 Call emergency services immediately if:",
+        recognizeSigns: "👀 Recognize the signs",
+        firstAidTitle: "🩹 First aid — step by step",
+        medKitTitle: "🧰 Med kit items to use",
+        doNotTitle: "⛔ Do NOT"
+      }
 },
 {
 id: "fractures",
@@ -243,15 +242,14 @@ precautions: [
 "Do not move a person with a suspected spine injury unless they are in danger.",
 "Do not apply ice directly to bare skin."
 ],
-uiLabels: {
-emptyState: '🔍 No emergencies match your search.
-Try "burn", "choking", "seizure", or "bleeding".',
-callEmergencyTitle: "📞 Call emergency services immediately if:",
-recognizeSigns: "👀 Recognize the signs",
-firstAidTitle: "🩹 First aid — step by step",
-medKitTitle: "🧰 Med kit items to use",
-doNotTitle: "⛔ Do NOT"
-}
+     uiLabels: {
+        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+        callEmergencyTitle: "📞 Call emergency services immediately if:",
+        recognizeSigns: "👀 Recognize the signs",
+        firstAidTitle: "🩹 First aid — step by step",
+        medKitTitle: "🧰 Med kit items to use",
+        doNotTitle: "⛔ Do NOT"
+      }
 },
 {
 id: "anaphylaxis",
@@ -285,15 +283,14 @@ precautions: [
 "Do not let the person stand or walk around after an injection.",
 "Do not use another person's auto-injector unless trained and authorized."
 ],
-uiLabels: {
-emptyState: '🔍 No emergencies match your search.
-Try "burn", "choking", "seizure", or "bleeding".',
-callEmergencyTitle: "📞 Call emergency services immediately if:",
-recognizeSigns: "👀 Recognize the signs",
-firstAidTitle: "🩹 First aid — step by step",
-medKitTitle: "🧰 Med kit items to use",
-doNotTitle: "⛔ Do NOT"
-}
+     uiLabels: {
+        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+        callEmergencyTitle: "📞 Call emergency services immediately if:",
+        recognizeSigns: "👀 Recognize the signs",
+        firstAidTitle: "🩹 First aid — step by step",
+        medKitTitle: "🧰 Med kit items to use",
+        doNotTitle: "⛔ Do NOT"
+      }
 },
 {
 id: "seizures",
@@ -329,15 +326,14 @@ precautions: [
 "Do not put anything in their mouth.",
 "Do not offer food or drink until they are fully alert."
 ],
-uiLabels: {
-emptyState: '🔍 No emergencies match your search.
-Try "burn", "choking", "seizure", or "bleeding".',
-callEmergencyTitle: "📞 Call emergency services immediately if:",
-recognizeSigns: "👀 Recognize the signs",
-firstAidTitle: "🩹 First aid — step by step",
-medKitTitle: "🧰 Med kit items to use",
-doNotTitle: "⛔ Do NOT"
-}
+     uiLabels: {
+        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+        callEmergencyTitle: "📞 Call emergency services immediately if:",
+        recognizeSigns: "👀 Recognize the signs",
+        firstAidTitle: "🩹 First aid — step by step",
+        medKitTitle: "🧰 Med kit items to use",
+        doNotTitle: "⛔ Do NOT"
+      }
 },
 {
 id: "heat-stroke",
@@ -373,15 +369,14 @@ precautions: [
 "Do not use ice-cold water immersion unless trained — cool gradually.",
 "Do not leave the person alone."
 ],
-uiLabels: {
-emptyState: '🔍 No emergencies match your search.
-Try "burn", "choking", "seizure", or "bleeding".',
-callEmergencyTitle: "📞 Call emergency services immediately if:",
-recognizeSigns: "👀 Recognize the signs",
-firstAidTitle: "🩹 First aid — step by step",
-medKitTitle: "🧰 Med kit items to use",
-doNotTitle: "⛔ Do NOT"
-}
+     uiLabels: {
+        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+        callEmergencyTitle: "📞 Call emergency services immediately if:",
+        recognizeSigns: "👀 Recognize the signs",
+        firstAidTitle: "🩹 First aid — step by step",
+        medKitTitle: "🧰 Med kit items to use",
+        doNotTitle: "⛔ Do NOT"
+      }
 },
 {
 id: "hypothermia",
@@ -417,15 +412,14 @@ precautions: [
 "Do not warm too quickly with hot water or direct heat.",
 "Do not assume a person with no signs of life cannot be saved — "not dead until warm and dead.""
 ],
-uiLabels: {
-emptyState: '🔍 No emergencies match your search.
-Try "burn", "choking", "seizure", or "bleeding".',
-callEmergencyTitle: "📞 Call emergency services immediately if:",
-recognizeSigns: "👀 Recognize the signs",
-firstAidTitle: "🩹 First aid — step by step",
-medKitTitle: "🧰 Med kit items to use",
-doNotTitle: "⛔ Do NOT"
-}
+     uiLabels: {
+        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+        callEmergencyTitle: "📞 Call emergency services immediately if:",
+        recognizeSigns: "👀 Recognize the signs",
+        firstAidTitle: "🩹 First aid — step by step",
+        medKitTitle: "🧰 Med kit items to use",
+        doNotTitle: "⛔ Do NOT"
+      }
 },
 {
 id: "poisoning",
@@ -459,15 +453,14 @@ precautions: [
 "Do not give food or drink unless advised by a professional.",
 "Do not try to neutralize the poison with vinegar, lemon, or other home remedies."
 ],
-uiLabels: {
-emptyState: '🔍 No emergencies match your search.
-Try "burn", "choking", "seizure", or "bleeding".',
-callEmergencyTitle: "📞 Call emergency services immediately if:",
-recognizeSigns: "👀 Recognize the signs",
-firstAidTitle: "🩹 First aid — step by step",
-medKitTitle: "🧰 Med kit items to use",
-doNotTitle: "⛔ Do NOT"
-}
+     uiLabels: {
+        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+        callEmergencyTitle: "📞 Call emergency services immediately if:",
+        recognizeSigns: "👀 Recognize the signs",
+        firstAidTitle: "🩹 First aid — step by step",
+        medKitTitle: "🧰 Med kit items to use",
+        doNotTitle: "⛔ Do NOT"
+      }
 },
 {
 id: "stroke",
@@ -500,15 +493,14 @@ precautions: [
 "Do not offer food or drink — swallowing may be impaired.",
 "Do not wait to see if symptoms improve. Time lost is brain lost."
 ],
-uiLabels: {
-emptyState: '🔍 No emergencies match your search.
-Try "burn", "choking", "seizure", or "bleeding".',
-callEmergencyTitle: "📞 Call emergency services immediately if:",
-recognizeSigns: "👀 Recognize the signs",
-firstAidTitle: "🩹 First aid — step by step",
-medKitTitle: "🧰 Med kit items to use",
-doNotTitle: "⛔ Do NOT"
-}
+     uiLabels: {
+        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+        callEmergencyTitle: "📞 Call emergency services immediately if:",
+        recognizeSigns: "👀 Recognize the signs",
+        firstAidTitle: "🩹 First aid — step by step",
+        medKitTitle: "🧰 Med kit items to use",
+        doNotTitle: "⛔ Do NOT"
+      }
 },
 {
 id: "shock",
@@ -541,15 +533,14 @@ precautions: [
 "Do not give fluids by mouth.",
 "Do not leave the person alone."
 ],
-uiLabels: {
-emptyState: '🔍 No emergencies match your search.
-Try "burn", "choking", "seizure", or "bleeding".',
-callEmergencyTitle: "📞 Call emergency services immediately if:",
-recognizeSigns: "👀 Recognize the signs",
-firstAidTitle: "🩹 First aid — step by step",
-medKitTitle: "🧰 Med kit items to use",
-doNotTitle: "⛔ Do NOT"
-}
+     uiLabels: {
+        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+        callEmergencyTitle: "📞 Call emergency services immediately if:",
+        recognizeSigns: "👀 Recognize the signs",
+        firstAidTitle: "🩹 First aid — step by step",
+        medKitTitle: "🧰 Med kit items to use",
+        doNotTitle: "⛔ Do NOT"
+      }
 },
 {
 id: "nausea",
@@ -584,15 +575,14 @@ precautions: [
 "Do not offer heavy, fatty, spicy, or strong-smelling foods.",
 "Do not ignore repeated forceful vomiting, blood in vomit, or signs of dehydration — seek medical care."
 ],
-uiLabels: {
-emptyState: '🔍 No emergencies match your search.
-Try "burn", "choking", "seizure", or "bleeding".',
-callEmergencyTitle: "📞 Call emergency services immediately if:",
-recognizeSigns: "👀 Recognize the signs",
-firstAidTitle: "🩹 First aid — step by step",
-medKitTitle: "🧰 Med kit items to use",
-doNotTitle: "⛔ Do NOT"
-}
+     uiLabels: {
+        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+        callEmergencyTitle: "📞 Call emergency services immediately if:",
+        recognizeSigns: "👀 Recognize the signs",
+        firstAidTitle: "🩹 First aid — step by step",
+        medKitTitle: "🧰 Med kit items to use",
+        doNotTitle: "⛔ Do NOT"
+      }
 }
 ],
 tl: [
@@ -631,8 +621,7 @@ precautions: [
 "Huwag gumamit ng tourniquet maliban kung ikaw ay sanay at ang pagdurugo ay kritikal sa buhay."
 ],
 uiLabels: {
-emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.
-Subukan ang "burn", "choking", "seizure", o "bleeding".',
+emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang "burn", "choking", "seizure", o "bleeding".',
 callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
 recognizeSigns: "👀 Kilalanin ang mga senyales",
 firstAidTitle: "🩹 Unang lunas — hakbang-hakbang",
@@ -675,8 +664,7 @@ precautions: [
 "Huwag gumamit ng mga adhesive dressing nang direkta sa pasong balat."
 ],
 uiLabels: {
-emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.
-Subukan ang "burn", "choking", "seizure", o "bleeding".',
+emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang "burn", "choking", "seizure", o "bleeding".',
 callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
 recognizeSigns: "👀 Kilalanin ang mga senyales",
 firstAidTitle: "🩹 Unang lunas — hakbang-hangbang",
