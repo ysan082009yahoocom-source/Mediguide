@@ -87,12 +87,12 @@ const appData = {
         medKitTitle: "🧰 Med kit items to use",
         doNotTitle: "⛔ Do NOT"
       }
-    }
+        },
   {
-id: "choking-adult",
-title: "Choking (Adult & Child)",
-icon: "🤢",
-keywords: ["choking", "airway", "blocked", "heimlich", "abdominal thrust", "cannot breathe"],
+    id: "choking-adult",
+     title: "Choking (Adult & Child)",
+     icon: "🤢",
+     keywords: ["choking", "airway", "blocked", "heimlich", "abdominal thrust", "cannot breathe"],
 summary: "Clear a blocked airway with back blows and abdominal thrusts.",
 callEmergency: [
 "The person becomes unresponsive",
@@ -119,18 +119,23 @@ precautions: [
 "Do not perform abdominal thrusts on a pregnant person — use chest thrusts.",
 "Do not put your fingers in the mouth to blindly sweep for an object.",
 "Do not ignore a partial blockage — monitor closely and seek help if it worsens."
-]
-},
-
-{
+  ],
+      uiLabels: {
+        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+        callEmergencyTitle: "📞 Call emergency services immediately if:",
+        recognizeSigns: "👀 Recognize the signs",
+        firstAidTitle: "🩹 First aid — step by step",
+        medKitTitle: "🧰 Med kit items to use",
+        doNotTitle: "⛔ Do NOT"
+}  },
+   {
 id: "cpr",
 title: "CPR / Cardiac Arrest",
 icon: "❤️",
 keywords: ["cpr", "cardiac", "heart", "arrest", "unresponsive", "not breathing", "chest compressions"],
-summary: "Keep blood flowing with chest compressions and rescue breaths.",
+summary: ["Keep blood flowing with chest compressions and rescue breaths."],
 callEmergency: [
-"The person is unresponsive and not breathing normally — call immediately before starting CPR"
-],
+  "The person is unresponsive and not breathing normally — call immediately before starting CPR"],
 symptoms: [
 "Sudden collapse",
 "Unresponsiveness to voice or touch",
@@ -152,7 +157,15 @@ precautions: [
 "Do not stop compressions except to use an AED or if the person clearly recovers.",
 "Do not delay compressions to check for a pulse for more than 10 seconds.",
 "Do not perform rescue breaths if untrained or unwilling — hands-only CPR still saves lives."
-]
+  ],
+       uiLabels: {
+        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+        callEmergencyTitle: "📞 Call emergency services immediately if:",
+        recognizeSigns: "👀 Recognize the signs",
+        firstAidTitle: "🩹 First aid — step by step",
+        medKitTitle: "🧰 Med kit items to use",
+        doNotTitle: "⛔ Do NOT"
+  
 },
 {
 "id": "Stomach Ache",
@@ -186,7 +199,14 @@ precautions: [
 "Do not give any laxatives or enemas, especially if appendicitis is suspected.",
 "Do not force the person to eat if they are experiencing nausea or active pain.",
 "Do not ignore localized pain that migrates to the lower right side of the abdomen."
-]
+  ],
+           uiLabels: {
+        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+        callEmergencyTitle: "📞 Call emergency services immediately if:",
+        recognizeSigns: "👀 Recognize the signs",
+        firstAidTitle: "🩹 First aid — step by step",
+        medKitTitle: "🧰 Med kit items to use",
+        doNotTitle: "⛔ Do NOT"
 },
 {
 id: "fractures",
@@ -220,14 +240,21 @@ precautions: [
 "Do not try to straighten a deformed limb or push a bone back in.",
 "Do not move a person with a suspected spine injury unless they are in danger.",
 "Do not apply ice directly to bare skin."
-]
+],
+       uiLabels: {
+        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+        callEmergencyTitle: "📞 Call emergency services immediately if:",
+        recognizeSigns: "👀 Recognize the signs",
+        firstAidTitle: "🩹 First aid — step by step",
+        medKitTitle: "🧰 Med kit items to use",
+        doNotTitle: "⛔ Do NOT"
 },
 {
 id: "anaphylaxis",
 title: "Allergic Reaction (Anaphylaxis)",
 icon: "🐝",
 keywords: ["allergy", "anaphylaxis", "epinephrine", "epipen", "bee sting", "swelling", "hives"],
-summary: "Recognize a severe allergic reaction and use an epinephrine auto-injector.",
+summary: ["Recognize a severe allergic reaction and use an epinephrine auto-injector."],
 callEmergency: [
 "Any signs of anaphylaxis are present — call immediately even if an auto-injector is used"
 ],
@@ -253,7 +280,14 @@ precautions: [
 "Do not wait to see if symptoms improve — anaphylaxis can worsen rapidly.",
 "Do not let the person stand or walk around after an injection.",
 "Do not use another person's auto-injector unless trained and authorized."
-]
+],
+       uiLabels: {
+        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+        callEmergencyTitle: "📞 Call emergency services immediately if:",
+        recognizeSigns: "👀 Recognize the signs",
+        firstAidTitle: "🩹 First aid — step by step",
+        medKitTitle: "🧰 Med kit items to use",
+        doNotTitle: "⛔ Do NOT"
 },
 {
 id: "seizures",
@@ -288,7 +322,14 @@ precautions: [
 "Do not hold the person down or try to stop their movements.",
 "Do not put anything in their mouth.",
 "Do not offer food or drink until they are fully alert."
-]
+],
+       uiLabels: {
+        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+        callEmergencyTitle: "📞 Call emergency services immediately if:",
+        recognizeSigns: "👀 Recognize the signs",
+        firstAidTitle: "🩹 First aid — step by step",
+        medKitTitle: "🧰 Med kit items to use",
+        doNotTitle: "⛔ Do NOT"
 },
 {
 id: "heat-stroke",
@@ -323,7 +364,14 @@ precautions: [
 "Do not give fluids to someone who is confused or unconscious.",
 "Do not use ice-cold water immersion unless trained — cool gradually.",
 "Do not leave the person alone."
-]
+],
+       uiLabels: {
+        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+        callEmergencyTitle: "📞 Call emergency services immediately if:",
+        recognizeSigns: "👀 Recognize the signs",
+        firstAidTitle: "🩹 First aid — step by step",
+        medKitTitle: "🧰 Med kit items to use",
+        doNotTitle: "⛔ Do NOT"
 },
 {
 id: "hypothermia",
@@ -358,7 +406,14 @@ precautions: [
 "Do not give alcohol or caffeine.",
 "Do not warm too quickly with hot water or direct heat.",
 "Do not assume a person with no signs of life cannot be saved — “not dead until warm and dead.”"
-]
+],
+       uiLabels: {
+        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+        callEmergencyTitle: "📞 Call emergency services immediately if:",
+        recognizeSigns: "👀 Recognize the signs",
+        firstAidTitle: "🩹 First aid — step by step",
+        medKitTitle: "🧰 Med kit items to use",
+        doNotTitle: "⛔ Do NOT"
 },
 {
 id: "poisoning",
@@ -391,7 +446,14 @@ precautions: [
 "Do not induce vomiting unless specifically told to by poison control.",
 "Do not give food or drink unless advised by a professional.",
 "Do not try to neutralize the poison with vinegar, lemon, or other home remedies."
-]
+],
+       uiLabels: {
+        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+        callEmergencyTitle: "📞 Call emergency services immediately if:",
+        recognizeSigns: "👀 Recognize the signs",
+        firstAidTitle: "🩹 First aid — step by step",
+        medKitTitle: "🧰 Med kit items to use",
+        doNotTitle: "⛔ Do NOT"
 },
 {
 id: "stroke",
@@ -423,7 +485,14 @@ precautions: [
 "Do not give aspirin or any medication unless instructed by a medical professional.",
 "Do not offer food or drink — swallowing may be impaired.",
 "Do not wait to see if symptoms improve. Time lost is brain lost."
-]
+],
+       uiLabels: {
+        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+        callEmergencyTitle: "📞 Call emergency services immediately if:",
+        recognizeSigns: "👀 Recognize the signs",
+        firstAidTitle: "🩹 First aid — step by step",
+        medKitTitle: "🧰 Med kit items to use",
+        doNotTitle: "⛔ Do NOT"
 },
 {
 id: "shock",
@@ -455,7 +524,14 @@ precautions: [
 "Do not raise the legs if there is a suspected head, neck, spine, or leg injury.",
 "Do not give fluids by mouth.",
 "Do not leave the person alone."
-]
+],
+       uiLabels: {
+        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+        callEmergencyTitle: "📞 Call emergency services immediately if:",
+        recognizeSigns: "👀 Recognize the signs",
+        firstAidTitle: "🩹 First aid — step by step",
+        medKitTitle: "🧰 Med kit items to use",
+        doNotTitle: "⛔ Do NOT"
 },
 {
 id: "nausea",
@@ -489,7 +565,14 @@ precautions: [
 "Do not let them gulp large amounts of water at once.",
 "Do not offer heavy, fatty, spicy, or strong-smelling foods.",
 "Do not ignore repeated forceful vomiting, blood in vomit, or signs of dehydration — seek medical care."
-]
+],
+       uiLabels: {
+        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+        callEmergencyTitle: "📞 Call emergency services immediately if:",
+        recognizeSigns: "👀 Recognize the signs",
+        firstAidTitle: "🩹 First aid — step by step",
+        medKitTitle: "🧰 Med kit items to use",
+        doNotTitle: "⛔ Do NOT"
 }
 ];
   ],
