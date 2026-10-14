@@ -1,3 +1,5 @@
+import appData from './data.js';
+
 (function () {
   "use strict";
 
@@ -7,9 +9,16 @@
   const printBtn = document.getElementById("printBtn");
   const installBtn = document.getElementById("installBtn");
   const offlineBadge = document.getElementById("offlineBadge");
+  const langSelect = document.getElementById("langSelect"); // New Dropdown Reference
 
   let activeId = null;
   let deferredInstallPrompt = null;
+  let currentLanguage = "en"; // Tracks local translation state
+
+  // Dynamically points to the active array based on selected language
+  function getActiveEmergencies() {
+    return appData[currentLanguage];
+  }
 
   function escapeHtml(value) {
     const div = document.createElement("div");
@@ -18,7 +27,9 @@
   }
 
   function renderTabs(query) {
+    const EMERGENCIES = getActiveEmergencies();
     const filter = (query || "").trim().toLowerCase();
+    
     const matches = EMERGENCIES.filter(function (emergency) {
       if (!filter) return true;
       return (
@@ -32,8 +43,9 @@
     tabsEl.innerHTML = "";
 
     if (matches.length === 0) {
-      contentEl.innerHTML =
-        '<div class="empty-state"><span class="big">🔍</span>No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.</div>';
+      // Pulls dynamic localized placeholder strings safely
+      const labels = EMERGENCIES[0]?.uiLabels || { emptyState: '🔍 No emergencies match your search.' };
+      contentEl.innerHTML = '<div class="empty-state">' + labels.emptyState + '</div>';
       return;
     }
 
@@ -68,6 +80,7 @@
   }
 
   function selectEmergency(id) {
+    const EMERGENCIES = getActiveEmergencies();
     const emergency = EMERGENCIES.find(function (item) {
       return item.id === id;
     });
@@ -83,10 +96,11 @@
     });
 
     renderEmergency(emergency);
-    contentEl.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
   function renderEmergency(emergency) {
+    const labels = emergency.uiLabels;
+    
     contentEl.innerHTML =
       '<article class="guide">' +
       '<header class="guide-header">' +
@@ -97,7 +111,7 @@
       "</div>" +
       "</header>" +
       '<aside class="callout callout-emergency">' +
-      "<strong>📞 Call emergency services (911) immediately if:</strong>" +
+      "<strong>" + labels.callEmergencyTitle + "</strong>" +
       "<ul>" +
       emergency.callEmergency.map(function (item) {
         return "<li>" + escapeHtml(item) + "</li>";
@@ -105,7 +119,7 @@
       "</ul>" +
       "</aside>" +
       '<section class="guide-section">' +
-      "<h3>👀 Recognize the signs</h3>" +
+      "<h3>" + labels.recognizeSigns + "</h3>" +
       '<ul class="list list-checks">' +
       emergency.symptoms.map(function (item) {
         return "<li>" + escapeHtml(item) + "</li>";
@@ -113,7 +127,7 @@
       "</ul>" +
       "</section>" +
       '<section class="guide-section">' +
-      "<h3>🩹 First aid — step by step</h3>" +
+      "<h3>" + labels.firstAidTitle + "</h3>" +
       '<ol class="list list-steps">' +
       emergency.steps.map(function (item) {
         return "<li>" + escapeHtml(item) + "</li>";
@@ -121,7 +135,7 @@
       "</ol>" +
       "</section>" +
       '<section class="guide-section">' +
-      "<h3>🧰 Med kit items to use</h3>" +
+      "<h3>" + labels.medKitTitle + "</h3>" +
       '<div class="chips">' +
       emergency.medKit.map(function (item) {
         return '<span class="chip">' + escapeHtml(item) + "</span>";
@@ -129,7 +143,7 @@
       "</div>" +
       "</section>" +
       '<section class="guide-section guide-section-warn">' +
-      "<h3>⛔ Do NOT</h3>" +
+      "<h3>" + labels.doNotTitle + "</h3>" +
       '<ul class="list list-warn">' +
       emergency.precautions.map(function (item) {
         return "<li>" + escapeHtml(item) + "</li>";
@@ -137,6 +151,14 @@
       "</ul>" +
       "</section>" +
       "</article>";
+  }
+
+  // Hook up Language Selection Tab Event Trigger
+  if (langSelect) {
+    langSelect.addEventListener("change", function (event) {
+      currentLanguage = event.target.value;
+      renderTabs(searchInput.value); // Hot-swaps the layout views immediately
+    });
   }
 
   searchInput.addEventListener("input", function () {
@@ -150,16 +172,18 @@
   window.addEventListener("beforeinstallprompt", function (event) {
     event.preventDefault();
     deferredInstallPrompt = event;
-    installBtn.hidden = false;
+    if (installBtn) installBtn.hidden = false;
   });
 
-  installBtn.addEventListener("click", async function () {
-    if (!deferredInstallPrompt) return;
-    deferredInstallPrompt.prompt();
-    await deferredInstallPrompt.userChoice;
-    deferredInstallPrompt = null;
-    installBtn.hidden = true;
-  });
+  if (installBtn) {
+    installBtn.addEventListener("click", async function () {
+      if (!deferredInstallPrompt) return;
+      deferredInstallPrompt.prompt();
+      await deferredInstallPrompt.userChoice;
+      deferredInstallPrompt = null;
+      installBtn.hidden = true;
+    });
+  }
 
   if ("serviceWorker" in navigator) {
     window.addEventListener("load", function () {
@@ -179,48 +203,3 @@
 
   renderTabs("");
 })();
-// --- PWA Custom Installation Logic ---
-let deferredPrompt;
-const installBtn = document.getElementById('installBtn');
-
-// 1. Listen for the browser's installation eligibility signal
-window.addEventListener('beforeinstallprompt', (e) => {
-  // Prevent Chrome from showing its default banner automatically
-  e.preventDefault();
-  // Stash the event trigger so it can be deployed on our button click
-  deferredPrompt = e;
-  // Reveal your custom "Install App" button by unhiding it
-  if (installBtn) {
-    installBtn.removeAttribute('hidden');
-  }
-});
-
-// 2. Trigger the install prompt when your user clicks the button
-if (installBtn) {
-  installBtn.addEventListener('click', async () => {
-    if (!deferredPrompt) return;
-    
-    // Show the native system install installation prompt
-    deferredPrompt.prompt();
-    
-    // Wait for the user to accept or dismiss the option
-    const { outcome } = await deferredPrompt.userChoice;
-    console.log(`User installation choice: ${outcome}`);
-    
-    // Reset our deferred variable; the prompt can only be used once
-    deferredPrompt = null;
-    
-    // Re-hide the button since the setup is processed
-    installBtn.setAttribute('hidden', '');
-  });
-}
-
-// 3. Completely hide the button if the app is successfully installed
-window.addEventListener('appinstalled', () => {
-  console.log('Medi Guide PWA was successfully installed.');
-  deferredPrompt = null;
-  if (installBtn) {
-    installBtn.setAttribute('hidden', '');
-  }
-});
-
