@@ -206,7 +206,7 @@ precautions: [
         medKitTitle: "🧰 Med kit items to use",
         doNotTitle: "⛔ Do NOT"
            } },
-{
+    [ {
 id: "fractures",
 title: "Fractures & Sprains",
 icon: "🦴",
