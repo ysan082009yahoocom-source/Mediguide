@@ -786,8 +786,7 @@ precautions: [
 "Huwag balewalain ang localized na sakit na lumilipat sa kanang ibabang bahagi ng tiyan."
 ],
 uiLabels: {
-emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.
-Subukan ang "burn", "choking", "seizure", o "bleeding".',
+emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang "burn", "choking", "seizure", o "bleeding".',
 callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
 recognizeSigns: "👀 Kilalanin ang mga senyales",
 firstAidTitle: "🩹 Unang lunas — hakbang-hakbang",
@@ -829,8 +828,7 @@ precautions: [
 "Huwag ilapat ang yelo nang direkta sa hubad na balat."
 ],
 uiLabels: {
-emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.
-Subukan ang "burn", "choking", "seizure", o "bleeding".',
+emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang "burn", "choking", "seizure", o "bleeding".',
 callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
 recognizeSigns: "👀 Kilalanin ang mga senyales",
 firstAidTitle: "🩹 Unang lunas — hakbang-hakbang",
@@ -915,8 +913,7 @@ precautions: [
 "Huwag mag-alok ng pagkain o inumin hanggang sa sila ay ganap nang gising at alerto."
 ],
 uiLabels: {
-emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.
-Subukan ang "burn", "choking", "seizure", o "bleeding".',
+emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang "burn", "choking", "seizure", o "bleeding".',
 callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
 recognizeSigns: "👀 Kilalanin ang mga senyales",
 firstAidTitle: "🩹 Unang lunas — hakbang-bang",
@@ -959,8 +956,7 @@ precautions: [
 "Huwag iwanan ang tao nang mag-isa."
 ],
 uiLabels: {
-emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.
-Subukan ang "burn", "choking", "seizure", o "bleeding".',
+emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang "burn", "choking", "seizure", o "bleeding".',
 callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
 recognizeSigns: "👀 Kilalanin ang mga senyales",
 firstAidTitle: "🩹 Unang lunas — hakbang-hakbang",
@@ -1000,11 +996,10 @@ precautions: [
 "Huwag kuskusin o i-massage ang mga malamig na braso o binti — maaari itong magdulot ng higit na pinsala.",
 "Huwag magbigay ng alak o kapeina.",
 "Huwag painitin nang napakabilis gamit ang mainit na tubig o direktang init.",
-"Huwag ipagpalagay na ang taong walang senyales ng buhay ay hindi na maililigtas — "hindi patay hangga't hindi mainit at patay.""
+"Huwag ipagpalagay na ang taong walang senyales ng buhay ay hindi na maililigtas — "hindi patay hanggat hindi mainit at patay.""
 ],
 uiLabels: {
-emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.
-Subukan ang "burn", "choking", "seizure", o "bleeding".',
+emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang "burn", "choking", "seizure", o "bleeding".',
 callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
 recognizeSigns: "👀 Kilalanin ang mga senyales",
 firstAidTitle: "🩹 Unang lunas — hakbang-hakbang",
@@ -1045,8 +1040,7 @@ precautions: [
 "Huwag subukang i-neutralize ang lason gamit ang suka, kalamansi, o iba pang lunas sa bahay."
 ],
 uiLabels: {
-emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.
-Subukan ang "burn", "choking", "seizure", o "bleeding".',
+emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang "burn", "choking", "seizure", o "bleeding".',
 callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
 recognizeSigns: "👀 Kilalanin ang mga senyales",
 firstAidTitle: "🩹 Unang lunas — hakbang-hakbang",
@@ -1086,8 +1080,7 @@ precautions: [
 "Huwag mag-antay kung bubuti ang mga sintomas. Ang bawat minutong mawala ay pinsala sa utak."
 ],
 uiLabels: {
-emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.
-Subukan ang "burn", "choking", "seizure", o "bleeding".',
+emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang "burn", "choking", "seizure", o "bleeding".',
 callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
 recognizeSigns: "👀 Kilalanin ang mga senyales",
 firstAidTitle: "🩹 Unang lunas — hakbang-hakbang",
@@ -1127,8 +1120,7 @@ precautions: [
 "Huwag iwanan ang tao nang mag-isa."
 ],
 uiLabels: {
-emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.
-Subukan ang "burn", "choking", "seizure", o "bleeding".',
+emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang "burn", "choking", "seizure", o "bleeding".',
 callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
 recognizeSigns: "👀 Kilalanin ang mga senyales",
 firstAidTitle: "🩹 Unang lunas — hakbang-hakbang",
@@ -1170,8 +1162,7 @@ precautions: [
 "Huwag balewalain ang paulit-ulit na sapilitang pagsusuka, dugo sa suka, o mga senyales ng matinding pagkatuyo (dehydration) — humingi ng medikal na tulong."
 ],
 uiLabels: {
-emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.
-Subukan ang "burn", "choking", "seizure", o "bleeding".',
+emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang "burn", "choking", "seizure", o "bleeding".',
 callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
 recognizeSigns: "👀 Kilalanin ang mga senyales",
 firstAidTitle: "🩹 Unang lunas — hakbang-hakbang",
