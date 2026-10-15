@@ -869,8 +869,7 @@ precautions: [
 "Huwag gumamit ng auto-injector ng ibang tao maliban kung ikaw ay sanay at pinahintulutan."
 ],
 uiLabels: {
-emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.
-Subukan ang "burn", "choking", "seizure", o "bleeding".',
+emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang "burn", "choking", "seizure", o "bleeding".',
 callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
 recognizeSigns: "👀 Kilalanin ang mga senyales",
 firstAidTitle: "🩹 Unang lunas — hakbang-hakbang",
