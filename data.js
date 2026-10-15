@@ -670,7 +670,475 @@ firstAidTitle: "🩹 Unang lunas — hakbang-hangbang",
 medKitTitle: "🧰 Mga gamit sa Med kit na gagamitin",
 doNotTitle: "⛔ Huwag Gawin"
 }
-}
+},
+      {
+      id: "choking-adult",
+      title: "Nabilaukan (Matanda at Bata)",
+      icon: "🤢",
+      keywords: ["nabilaukan", "boga", "bara", "sinisid", "pindot sa tiyan", "hindi makahinga"],
+      summary: "Alisin ang nakabarang bagay sa daanan ng hangin gamit ang mga tapik sa likod at pagpindot sa tiyan (abdominal thrusts).",
+      callEmergency: [
+        "Ang tao ay nawalan ng malay o hindi na sumasagot",
+        "Hindi mo maalis ang bara pagkatapos ng ilang subok",
+        "Huminto sa paghinga ang tao"
+      ],
+      symptoms: [
+        "Pakahawak sa leeg gamit ang isa o dalawang kamay",
+        "Hindi kakayahang magsalita, umubo, o huminga",
+        "Maingay o walang tunog na pagsisikap na huminga",
+        "Namumula ang mukha, na nagiging maputla o nangingitim",
+        "Pagka-panic o pagkawala ng malay"
+      ],
+      steps: [
+        "Itanong: \"Nabilaukan ka ba?\" Kung kaya nilang umubo o magsalita, hikayatin silang umubo.",
+        "Kung hindi sila makaubo o makahinga, itumba sila nang bahagya pasulong at bigyan ng hanggang 5 matatalas na tapik sa likod sa pagitan ng mga paypay.",
+        "Kung hindi nagtagumpay, tumayo sa likod nila at bigyan ng hanggang 5 pagpindot sa tiyan (Heimlich maneuver).",
+        "Magpalit-palit sa 5 tapik sa likod at 5 pagpindot sa tiyan hanggang sa mailabas ang nakabarang bagay.",
+        "Kung ang tao ay mawalan ng malay, simulan ang CPR at tumawag sa emergency services.",
+        "Pagkatapos mailabas ang bagay, panatilihing nakahinto ang tao at magpatingin sa doktor."
+      ],
+      medKit: ["CPR face shield", "Guwantes", "Telepono para tumawag sa emergency services"],
+      precautions: [
+        "Huwag magsagawa ng pagpindot sa tiyan sa buntis — gumamit ng pagpindot sa dibdib (chest thrusts).",
+        "Huwag ipasok ang mga daliri sa bibig para magbulag-bulagang magkapas ng nakabarang bagay.",
+        "Huwag balewalain ang bahagyang bara — bantayan nang maigi at humingi ng tulong kung lumala."
+      ],
+      uiLabels: {
+        emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang "burn", "choking", "seizure", o "bleeding".',
+        callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
+        recognizeSigns: "👀 Kilalanin ang mga senyales",
+        firstAidTitle: "🩹 Unang lunas — hakbang-hakbang",
+        medKitTitle: "🧰 Mga gamit sa Med kit na gagamitin",
+        doNotTitle: "⛔ Huwag Gawin"
+      }
+    },
+    {
+      id: "cpr",
+      title: "CPR / Cardiac Arrest",
+      icon: "❤️",
+      keywords: ["cpr", "cardiac", "puso", "atake", "walang malay", "hindi humihinga", "bomba sa dibdib"],
+      summary: "Panatilihing dumadaloy ang dugo sa pamamagitan ng pagbomba sa dibdib at mga artipisyal na paghinga.",
+      callEmergency: [
+        "Ang tao ay walang malay at hindi humihinga nang normal — tumawag agad bago simulan ang CPR"
+      ],
+      symptoms: [
+        "Biglaang pagbagsak",
+        "Walang tugon sa boses o hawak",
+        "Walang paghinga o humihingal lang (agonal breathing)",
+        "Walang pulso o mga senyales ng sirkulasyon"
+      ],
+      steps: [
+        "Suriin kung ligtas ang paligid, pagkatapos ay tapikin at sumigaw para tingnan kung gising ang tao.",
+        "Tumawag sa emergency services at kumuha ng AED kung mayroon.",
+        "Iposisyon ang ibaba ng isang kamay sa gitna ng dibdib; ilagay ang isa pang kamay sa ibabaw at pag-isandigin ang mga daliri.",
+        "Pumindot nang madiin at mabilis — hindi bababa sa 5 cm (2 pulgada) ang lalim sa bilis na 100–120 compressions bawat minuto.",
+        "Hayaang bumalik sa normal ang dibdib sa pagitan ng mga pagbomba.",
+        "Kung sanay, magbigay ng 2 artipisyal na paghinga pagkatapos ng bawat 30 pagbomba; kung hindi, ipagpatuloy ang hands-only CPR.",
+        "Gamitin ang AED sa sandaling dumating ito at sundin ang mga tagubilin ng boses nito.",
+        "Ipagpatuloy hanggang sa dumating ang tulong o magsimulang huminga nang normal ang tao."
+      ],
+      medKit: ["CPR face shield", "Pocket mask", "AED (kung mayroon)", "Guwantes"],
+      precautions: [
+        "Huwag ihinto ang pagbomba maliban na lang kung gagamit ng AED o kung malinaw na nagkamalay ang tao.",
+        "Huwag iantala ang pagbomba para mag-check ng pulso nang higit sa 10 segundo.",
+        "Huwag magbigay ng artipisyal na paghinga kung hindi sanay o hindi mairingan — ang hands-only CPR ay nakakapagligtas pa rin ng buhay."
+      ],
+      uiLabels: {
+        emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang "burn", "choking", "seizure", o "bleeding".',
+        callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
+        recognizeSigns: "👀 Kilalanin ang mga senyales",
+        firstAidTitle: "🩹 Unang lunas — hakbang-hakbang",
+        medKitTitle: "🧰 Mga gamit sa Med kit na gagamitin",
+        doNotTitle: "⛔ Huwag Gawin"
+      }
+    },
+    {
+      id: "Stomach Ache",
+      title: "Sakit ng Tiyan",
+      icon: "🤮",
+      keywords: ["sakit ng tiyan", "kabag", "kombulsyon sa tiyan", "hindi natunawan", "sinisikmura", "hilo", "paimbiyr"],
+      summary: "Magpahinga nang komportable, panatilihing hydrated, at bantayan ang mga malalang sintomas na nangangailangan ng agarang medikal na atensyon.",
+      callEmergency: [
+        "Ang sakit ay biglaan, matindi, at hindi matiis.",
+        "Ang tiyan ay matigas, makunat, o labis na sensitibo kapag hinawakan.",
+        "May kasamang patuloy na pagsusuka, pagsusuka ng dugo, o madugo/maitim na dumi.",
+        "May kasamang mataas na lagnat, pagkahilo, paghimatay, o paghihirap sa paghinga."
+      ],
+      symptoms: [
+        "Katamtamang kirot, matalas na sakit, o tila nagbabagang pakiramdam sa tiyan",
+        "Pangangatog o pagkabag ng tiyan",
+        "Pagkahilo, pagsusuka, o pagkawala ng gana kumain",
+        "Gas, hindi pagkatunaw ng pagkain, o pagbabago sa pagdumi"
+      ],
+      steps: [
+        "Paupuin o pahigaan ang tao sa isang komportableng posisyon, tulong ang pagbaluktot o bahagyang pagtaas ng mga tuhod.",
+        "Luwagan ang mga masikip na damit sa paligid ng baywang at tiyan.",
+        "Maglapat ng mainit na compress o heating pad sa tiyan sa loob ng 15-20 minuto para maibsan ang pananakit.",
+        "Hikayatin ang dahan-dahang pag-inom ng tubig, malinaw na sabaw, o mga herbal tea tulad ng peppermint o luya.",
+        "Iwasang magbigay ng matitigas na pagkain, kapeina, alak, carbonated na inumin, o gatas hanggang sa mawala ang sakit.",
+        "Bantayan ang anumang lumalalang senyales o mga seryosong sintomas na maaaring magpahiwatig ng emergency tulad ng appendicitis."
+      ],
+      medKit: ["Heating pad o warm compress", "Antacids (para sa hindi natunawan)", "Electrolyte solutions", "Ginger o peppermint tea bags"],
+      precautions: [
+        "Huwag magbigay ng aspirin, ibuprofen, o iba pang NSAID nang walang payo ng doktor, dahil maaari nitong iritahin ang dingding ng tiyan.",
+        "Huwag magbigay ng anumang pampurga o laxative, lalo na kung pinaghihinalaan ang appendicitis.",
+        "Huwag piliting kumain ang tao kung sila ay nakakaramdam ng pagkasuka o aktwal na pananakit.",
+        "Huwag balewalain ang localized na sakit na lumilipat sa kanang ibabang bahagi ng tiyan."
+      ],
+      uiLabels: {
+        emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang "burn", "choking", "seizure", o "bleeding".',
+        callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
+        recognizeSigns: "👀 Kilalanin ang mga senyales",
+        firstAidTitle: "🩹 Unang lunas — hakbang-hakbang",
+        medKitTitle: "🧰 Mga gamit sa Med kit na gagamitin",
+        doNotTitle: "⛔ Huwag Gawin"
+      }
+    },
+    {
+      id: "fractures",
+      title: "Mga Bali at Pilay (Fractures & Sprains)",
+      icon: "🦴",
+      keywords: ["bali", "bali na buto", "pilay", "lamog", "dislocate", "pinsala", "pamamaga"],
+      summary: "I-immobilize o huwag pagalawin ang napinsalang bahagi at bawasan ang sakit at pamamaga.",
+      callEmergency: [
+        "Ang buto ay nakikita o bumaon palabas sa balat",
+        "Ang braso o binti ay deformed, namamanhid, malamig, o nangingitim",
+        "Ang pinsala ay kinabibilangan ng ulo, leeg, gulugod, o balakang",
+        "Ang tao ay hindi makagalaw o hindi makatapak gamit ang napinsalang bahagi"
+      ],
+      symptoms: [
+        "Sakit na lumalala kapag iginalaw",
+        "Pamamaga, pasa, o pagka-deform",
+        "Tunog ng pagkabali o pagkakiskis sa oras ng pinsala",
+        "Hindi kakayahang magpakilos o magpasan ng bigat",
+        "Pamamanhid o kuryente sa ibaba ng pinsala"
+      ],
+      steps: [
+        "Panatilihing walang galaw ang tao at suportahan ang napinsalang bahagi sa posisyong natagpuan.",
+        "Maglapat ng cold pack na nakabalot sa tela nang hanggang 20 minuto para mabawasan ang pamamaga.",
+        "Para sa pinaghihinalaang bali, i-immobilize ang kasukasuan sa itaas at ibaba ng pinsala gamit ang splint o sling.",
+        "Para sa pilay o lamog, tandaan ang RICE: Rest (Pahinga), Ice (Yelo), Compression (Bendahe), Elevation (Itaas).",
+        "Suriin ang sirkulasyon sa ibaba ng pinsala — init, kulay, at pakiramdam.",
+        "Gamutin para sa shock na kondisyon at humingi ng medikal na tulong."
+      ],
+      medKit: ["Cold pack", "Triangular bandage", "Elastic bandage", "Splint / matigas na suporta", "Adhesive tape"],
+      precautions: [
+        "Huwag subukang ituwid ang isang deformed na bahagi o itulak pabalik ang buto.",
+        "Huwag ilipat ang isang taong may pinaghihinalaang pinsala sa gulugod maliban kung sila ay nasa panganib.",
+        "Huwag ilapat ang yelo nang direkta sa hubad na balat."
+      ],
+      uiLabels: {
+        emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang "burn", "choking", "seizure", o "bleeding".',
+        callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
+        recognizeSigns: "👀 Kilalanin ang mga senyales",
+        firstAidTitle: "🩹 Unang lunas — hakbang-hakbang",
+        medKitTitle: "🧰 Mga gamit sa Med kit na gagamitin",
+        doNotTitle: "⛔ Huwag Gawin"
+      }
+    },
+    {
+      id: "anaphylaxis",
+      title: "Matinding Allergic Reaction (Anaphylaxis)",
+      icon: "🐝",
+      keywords: ["allergy", "anaphylaxis", "epinephrine", "epipen", "kagat ng bubuyog", "pamamaga", "pantal"],
+      summary: "Kilalanin ang matinding allergic reaction at gumamit ng epinephrine auto-injector.",
+      callEmergency: [
+        "Mayroong anumang senyales ng anaphylaxis — tumawag agad kahit na nagamit na ang auto-injector"
+      ],
+      symptoms: [
+        "Pamamaga ng mukha, labi, dila, o lalamunan",
+        "Nahihirapang huminga, humihingal, o masikip ang dibdib",
+        "Mga pantal, pamumula, o malawakang pangangati",
+        "Pagkahilo, mahinang pulso, o paghimatay",
+        "Pagkasuka, pagsusuka, o pananakit ng tiyan",
+        "Pakiramdam na tila may masamang mangyayari"
+      ],
+      steps: [
+        "Tumawag agad sa emergency services.",
+        "Itanong kung ang tao ay may dalang epinephrine auto-injector (hal. EpiPen).",
+        "Tulungan silang gamitin ito: alisin ang safety cap at iturok nang madiin sa labas ng gitnang hita.",
+        "Pahigaan ang tao nang patag na nakataas ang mga binti — o paupuin kung nahihirapang huminga.",
+        "Kung magpatuloy ang mga sintomas pagkatapos ng 5 minuto at may available na ikalawang auto-injector, gamitin ito.",
+        "Bantayan ang paghinga at simulan ang CPR kung ang tao ay mawalan ng malay.",
+        "Panatilihin silang nakahiga hanggang sa dumating ang saklolo, kahit na bumuti na ang kanilang pakiramdam."
+      ],
+      medKit: ["Epinephrine auto-injector (kung nireseta)", "Antihistamine (para sa banayad na reaksyon lamang)", "CPR face shield", "Guwantes"],
+      precautions: [
+        "Huwag mag-antay kung bubuti ang mga sintomas — ang anaphylaxis ay maaaring lumala nang napakabilis.",
+        "Huwag hayaang tumayo o maglakad-lakad ang tao pagkatapos saksakan ng gamot.",
+        "Huwag gumamit ng auto-injector ng ibang tao maliban kung ikaw ay sanay at pinahintulutan."
+      ],
+      uiLabels: {
+        emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang "burn", "choking", "seizure", o "bleeding".',
+        callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
+        recognizeSigns: "👀 Kilalanin ang mga senyales",
+        firstAidTitle: "🩹 Unang lunas — hakbang-hakbang",
+        medKitTitle: "🧰 Mga gamit sa Med kit na gagamitin",
+        doNotTitle: "⛔ Huwag Gawin"
+      }
+    },
+    {
+      id: "seizures",
+      title: "Kombulsyon (Seizures)",
+      icon: "⚡",
+      keywords: ["kombulsyon", "atake", "epilepsya", "Nanginginig", "walang malay"],
+      summary: "Protektahan ang tao mula sa pinsala habang nagpapatuloy ang kombulsyon.",
+      callEmergency: [
+        "Ang kombulsyon ay tumagal nang higit sa 5 minuto",
+        "May sumunod na ikalawang atake kaagad",
+        "Ang tao ay nasugatan, buntis, o may diabetes",
+        "Ito ang unang pagkakataon na nagkakombulsyon ang tao",
+        "Ang tao ay hindi nagising o hindi humihinga nang normal pagkatapos ng atake"
+      ],
+      symptoms: [
+        "Biglaang pagbagsak o pagkawala ng kamalayan",
+        "Panginginig o pagtigas ng katawan",
+        "Pagtaas o pag-ikot ng mga mata paitaas",
+        "Pagbubula ng bibig o pagkagat sa dila",
+        "Pagkalito o pagkaantok pagkatapos ng kombulsyon"
+      ],
+      steps: [
+        "Tandaan ang oras kung kailan nagsimula ang kombulsyon.",
+        "Protektahan ang ulo gamit ang isang malambot na bagay at ilayo ang mga kalapit na mapanganib na kagamitan.",
+        "Luwagan ang masisikip na damit sa paligid ng leeg.",
+        "Dahan-dahang iroll ang tao sa kanilang tagiliran kapag huminto na ang panginginig upang mapanatiling malinis ang daanan ng hangin.",
+        "Manatili sa tabi nila hanggang sa sila ay ganap nang gising.",
+        "Ipanatag ang kanilang loob at suriin kung may mga pinsala o sugat kapag natapos na ang atake."
+      ],
+      medKit: ["Malambot na sapin", "Emergency blanket", "Guwantes", "Telepono para tumawag sa emergency services"],
+      precautions: [
+        "Huwag pigilan ang tao o subukang ihinto ang kanilang mga paggalaw.",
+        "Huwag maglagay ng anumang bagay sa loob ng kanilang bibig.",
+        "Huwag mag-alok ng pagkain o inumin hanggang sa sila ay ganap nang gising at alerto."
+      ],
+      uiLabels: {
+        emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang "burn", "choking", "seizure", o "bleeding".',
+        callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
+        recognizeSigns: "👀 Kilalanin ang mga senyales",
+        firstAidTitle: "🩹 Unang lunas — hakbang-bang",
+        medKitTitle: "🧰 Mga gamit sa Med kit na gagamitin",
+        doNotTitle: "⛔ Huwag Gawin"
+      }
+    },
+    {
+      id: "heat-stroke",
+      title: "Heat Exhaustion at Heat Stroke",
+      icon: "☀️",
+      keywords: ["init", "heat stroke", "heat exhaustion", "naoverheat", "dehydration", "mainit na panahon"],
+      summary: "Palamigin ang tao nang mabilis at bigyan ng likido kung may malay.",
+      callEmergency: [
+        "Ang tao ay nalilito, balisa, o walang malay",
+        "Napakataas ng temperatura ng katawan",
+        "Huminto sila sa pagpawis at ang balat ay mainit at tuyo",
+        "Ang pagsusuka ay pumipigil sa pag-inom ng likido",
+        "Hindi bumubuti ang mga sintomas sa loob ng 30 minuto"
+      ],
+      symptoms: [
+        "Malakas na pagpapawis, panghihina, o pagkahilo",
+        "Sakit ng ulo, pagkasuka, o panginginig ng kalamnan",
+        "Mainit, mapula, tuyo, o basang balat",
+        "Mabilis at malakas na pulso",
+        "Pagkalito, bulol na pagsasalita, o pagkawala ng malay"
+      ],
+      steps: [
+        "Ilipat ang tao sa isang malamig at may lilim na lugar.",
+        "Alisin ang mga labis na kasuotan.",
+        "Palamigin nang mabilis: sprayhan o punasan ng malamig na tubig at paypayan sila.",
+        "Maglapat ng mga cold pack sa leeg, kilikili, at singit.",
+        "Kung gising at hindi nagsusuka, bigyan ng maliliit na sipsip ng tubig o sports drink.",
+        "Bantayan silang maigi — kung magkaroon ng pagkalito o pagkawala ng malay, tumawag sa emergency services."
+      ],
+      medKit: ["Cold pack", "Tubig / oral rehydration salts", "Malamig na tela o spray bottle", "Emergency blanket (para sa lilim)", "Thermometer"],
+      precautions: [
+        "Huwag magbigay ng inumin sa taong nalilito o walang malay.",
+        "Huwag ilubog sa napakalamig na yelong tubig maliban kung sanay — palamigin nang dahan-dahan.",
+        "Huwag iwanan ang tao nang mag-isa."
+      ],
+      uiLabels: {
+        emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang "burn", "choking", "seizure", o "bleeding".',
+        callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
+        recognizeSigns: "👀 Kilalanin ang mga senyales",
+        firstAidTitle: "🩹 Unang lunas — hakbang-hakbang",
+        medKitTitle: "🧰 Mga gamit sa Med kit na gagamitin",
+        doNotTitle: "⛔ Huwag Gawin"
+      }
+    },
+    {
+      id: "hypothermia",
+      title: "Hypothermia (Labis na Kalamigan)",
+      icon: "❄️",
+      keywords: ["lamig", "hypothermia", "nagiginaw", "nanginginig", "mababang temperatura", "frostbite"],
+      summary: "Painitin ang tao nang dahan-dahan at iwasan ang karagdagdang pagkawala ng init ng katawan.",
+      callEmergency: [
+        "Huminto ang panginginig ngunit ang tao ay nananatiling malamig",
+        "Ang tao ay nalilito, inaantok, o walang malay",
+        "Ang paghinga ay mabagal o mababaw",
+        "Ang temperatura ng katawan ay mababa sa 35°C (95°F)"
+      ],
+      symptoms: [
+        "Panginginig (na maaaring huminto sa malubhang sitwasyon)",
+        "Malamig, maputla, o nangingitim na balat",
+        "Bulol na pagsasalita o pagkalito",
+        "Pagkaantok o matinding pagkapagod",
+        "Mabagal at mababaw na paghinga"
+      ],
+      steps: [
+        "Ilayo ang tao sa malamig na lugar at alisin ang basang damit.",
+        "Balutin sila sa mga kumot, unahin ang ulo at katawan.",
+        "Magbigay ng mainit, matamis, at walang alak na inumin kung sila ay gising at nakakalunok.",
+        "Maglapat ng maiinit (hindi napakainit) na pack sa dibdib, leeg, at singit.",
+        "Hawakan ang tao nang dahan-dahan upang maiwasang mag-trigger ng mga problema sa ritmo ng puso.",
+        "Bantayan ang paghinga at simulan ang CPR kung sila ay mawalan ng malay at hindi humihinga nang normal."
+      ],
+      medKit: ["Emergency blanket", "Maiinit na kumot / sleeping bag", "Warm packs", "Mainit na inuming walang alkohol", "Tuyong damit", "Thermometer"],
+      precautions: [
+        "Huwag kuskusin o i-massage ang mga malamig na braso o binti — maaari itong magdulot ng higit na pinsala.",
+        "Huwag magbigay ng alak o kapeina.",
+        "Huwag painitin nang napakabilis gamit ang mainit na tubig o direktang init.",
+        "Huwag ipagpalagay na ang taong walang senyales ng buhay ay hindi na maililigtas — \"hindi patay hangga't hindi mainit at patay.\""
+      ],
+      uiLabels: {
+        emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang "burn", "choking", "seizure", o "bleeding".',
+        callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
+        recognizeSigns: "👀 Kilalanin ang mga senyales",
+        firstAidTitle: "🩹 Unang lunas — hakbang-hakbang",
+        medKitTitle: "🧰 Mga gamit sa Med kit na gagamitin",
+        doNotTitle: "⛔ Huwag Gawin"
+      }
+    },
+    {
+      id: "poisoning",
+      title: "Pagkalason (Poisoning)",
+      icon: "☠️",
+      keywords: ["lason", "overdose", "kemikal", "toxic", "nailunok", "nakain", "usok"],
+      summary: "Alamin ang uri ng lason at humingi agad ng ekspertong tulong.",
+      callEmergency: [
+        "Ang tao ay walang malay, nagkakakombulsyon, o nahihirapang huminga",
+        "Malaki o hindi alam na dami ng lason ang nainom/nakain",
+        }
+  },
+    {
+      id: "stroke",
+      title: "Stroke (Atake sa Utak - FAST)",
+      icon: "🧠",
+      keywords: ["stroke", "atake sa utak", "tabingi ang mukha", "panghihina ng bisig", "pagsasalita", "fast"],
+      summary: "Tukuyin ang stroke gamit ang FAST at tumawag agad ng tulong.",
+      callEmergency: [
+        "Kahit isang senyales lang ng FAST ang makita — tumawag agad, kahit bumuti pa ang mga sintomas"
+      ],
+      symptoms: [
+        "Pagtatabingi ng mukha sa isang panig",
+        "Panghihina o pamamanhid ng isang braso/bisig",
+        "Kahirapan sa pagsasalita — bulol o hindi makapagsalita",
+        "Biglaang pagkalito o kahirapan sa pag-unawa",
+        "Biglaang matinding sakit ng ulo, pagkahilo, o problema sa paningin"
+      ],
+      steps: [
+        "Gamitin ang FAST: Face (Mukha) — paikutin silang ngumiti. Arm (Bisig) — paangatin ang dalawang braso. Speech (Pagsasalita) — paanditin silang umulit ng simpleng pangungusap. Time (Oras) — itala kung kailan nagsimula ang mga sintomas.",
+        "Tumawag agad sa emergency services kung may makitang anumang senyales.",
+        "Itala ang oras kung kailan unang lumitaw ang mga sintomas at ibahagi ito sa mga reresponde.",
+        "Panatilihing nakahinto ang tao na may bahagyang nakataas ang ulo at mga balikat.",
+        "Luwagan ang masisikip na damit at panatilihin silang kalmado.",
+        "Bantayan ang paghinga; simulan ang CPR kung sila ay mawalan ng malay at huminto sa normal na paghinga.",
+        "Huwag magbigay ng pagkain, inumin, o anumang gamot."
+      ],
+      medKit: ["Telepono para tumawag sa emergency services", "Emergency blanket", "Guwantes", "CPR face shield"],
+      precautions: [
+        "Huwag magbigay ng aspirin o anumang gamot maliban kung ipinag-utos ng isang medikal na propesyonal.",
+        "Huwag mag-alok ng pagkain o inumin — maaaring apektado ang kakayahang lumunok.",
+        "Huwag mag-antay kung bubuti ang mga sintomas. Ang bawat minutong mawala ay pinsala sa utak."
+      ],
+      uiLabels: {
+        emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang "burn", "choking", "seizure", o "bleeding".',
+        callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
+        recognizeSigns: "👀 Kilalanin ang mga senyales",
+        firstAidTitle: "🩹 Unang lunas — hakbang-hakbang",
+        medKitTitle: "🧰 Mga gamit sa Med kit na gagamitin",
+        doNotTitle: "⛔ Huwag Gawin"
+      }
+    },
+    {
+      id: "shock",
+      title: "Shock (Kondisyon ng Kakulangan sa Dugo)",
+      icon: "🚨",
+      keywords: ["shock", "sirkulasyon", "maputla", "malamig ang pawis", "mababang presyon", "pagbagsak"],
+      summary: "Suportahan ang sirkulasyon ng dugo sa pamamagitan ng pagpapahiga sa tao at pagpapanatili sa kanilang mainit.",
+      callEmergency: [
+        "Pinaghihinalaan ang shock pagkatapos ng anumang seryosong pinsala, matinding pagdurugo, impeksyon, o malalang allergic reaction"
+      ],
+      symptoms: [
+        "Maputla, malamig, at basang-basa ng pawis na balat",
+        "Mabilis ngunit mahinang pulso",
+        "Mabilis at mababaw na paghinga",
+        "Pagkahilo, panghihina, o paghimatay",
+        "Pagkalito, pagkabalisa, o kawalan ng pagtugon"
+      ],
+      steps: [
+        "Tumawag sa emergency services.",
+        "Pahigaan ang tao nang patag sa kanilang likod.",
+        "Itaas ang kanilang mga binti nang humigit-kumulang 30 cm (12 pulgada) kung walang pinaghihinalaang pinsala sa ulo, leeg, gulugod, o binti.",
+        "Panatilihin silang mainit gamit ang isang kumot o emergency blanket.",
+        "Luwagan ang masisikip na damit sa paligid ng leeg, dibdib, at baywang.",
+        "Bantayan ang paghinga at pagtugon; simulan ang CPR kung huminto sila sa normal na paghinga.",
+        "Huwag magbigay ng pagkain o inumin."
+      ],
+      medKit: ["Emergency blanket", "Guwantes", "CPR face shield", "Telepono para tumawag sa emergency services"],
+      precautions: [
+        "Huwag itaas ang mga binti kung may pinaghihinalaang pinsala sa ulo, leeg, gulugod, o binti.",
+        "Huwag magbigay ng anumang likido sa pamamagitan ng bibig.",
+        "Huwag iwanan ang tao nang mag-isa."
+      ],
+      uiLabels: {
+        emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang "burn", "choking", "seizure", o "bleeding".',
+        callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
+        recognizeSigns: "👀 Kilalanin ang mga senyales",
+        firstAidTitle: "🩹 Unang lunas — hakbang-hakbang",
+        medKitTitle: "🧰 Mga gamit sa Med kit na gagamitin",
+        doNotTitle: "⛔ Huwag Gawin"
+      }
+    },
+    {
+      id: "nausea",
+      title: "Pagkasuka at Pagkahilo (Nausea)",
+      icon: "😵",
+      keywords: ["pagkasuka", "pagsusuka", "sinisikmura", "hilo", "hilo sa biyahe"],
+      summary: "Ibsan ang pagkasuka sa pamamagitan ng pahinga, sariwang hangin, maliliit na sipsip ng likido, at matatabang pagkain.",
+      callEmergency: [
+        "Ang pagkasuka ay may kasamang matinding sakit sa dibdib o hirap sa paghinga",
+        "Hindi kayang pigilan ng tao ang anumang likido at nagpapakita ng mga senyales ng dehydration",
+        "Ang pagsusuka ay malala, may dugo, o patuloy na nagaganap",
+        "Ang tao ay nalilito, hindi tumutugon, o may naninigas na leeg at lagnat"
+      ],
+      symptoms: [
+        "Sinisikmura o matinding urges na sumuka",
+        "Kakulangan sa kakayahang tumayo nang matatag",
+        "Sakit ng ulo",
+        "Pagkahilo, panghihina, o pagkalito",
+        "Maputla, malamig, at basang-basa ng pawis na balat"
+      ],
+      steps: [
+        "Pahinga at posisyon: Paupuin ang tao nang tuwid o bahagyang isandal sa isang malamig, tahimik, at maayos ang bentilasyong lugar na may sariwang hangin. Iwasan ang biglaang paggalaw.",
+        "Magbigay ng sariwang hangin: Buksan ang bintana o gumamit ng bentilador para palamigin sila. Maglapat ng malamig at basang tela sa likod ng kanilang leeg.",
+        "Hikayatin ang dahan-dahang hydration: Mag-alok ng maliliit at madalas na sipsip ng malinaw na tubig, electrolyte solutions, o diluted na juice kapag lumipas na ang unang bugso. Huwag hayaang lumunok ng marami nang biglaan.",
+        "Subukan ang mga natural na lunas: Mag-alok ng tsaa na may luya o peppermint kung mayroon, o subukan ang wrist acupressure (pagpindot sa P6 point sa loob ng pulso).",
+        "Magpasok ng matatabang pagkain nang dahan-dahan: Kung kaya na nilang tumanggap ng likido at nagugutom, mag-alok ng maliliit na bahagi ng simpleng pagkain tulad ng BRAT diet (saging, kanin, applesauce, tinapay) o simpleng crackers.",
+        "Iwasan ang mga matataba, maaanghang, o may matatapang na amoy na pagkain."
+      ],
+      medKit: ["Tubig o oral rehydration solution", "Crackers / simpleng meryenda", "Tsaa na may luya o peppermint", "Malamig na tela", "Plastik o mangkok para sa pagsusuka"],
+      precautions: [
+        "Huwag hayaang uminom ng malaking dami ng tubig nang sabay-sabay.",
+        "Huwag mag-alok ng mabibigat, matataba, maaanghang, o may matatapang na amoy na pagkain.",
+        "Huwag balewalain ang paulit-ulit na sapilitang pagsusuka, dugo sa suka, o mga senyales ng matinding pagkatuyo (dehydration) — humingi ng medikal na tulong."
+      ],
+      uiLabels: {
+        emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang "burn", "choking", "seizure", o "bleeding".',
+        callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
+        recognizeSigns: "👀 Kilalanin ang mga senyales",
+        firstAidTitle: "🩹 Unang lunas — hakbang-hakbang",
+        medKitTitle: "🧰 Mga gamit sa Med kit na gagamitin",
+        doNotTitle: "⛔ Huwag Gawin"
+      }
+    }
 ]
 };
 export default appData;
