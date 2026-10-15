@@ -994,7 +994,7 @@ medKit: ["Emergency blanket", "Maiinit na kumot / sleeping bag", "Warm packs", "
 precautions: [
 "Huwag kuskusin o i-massage ang mga malamig na braso o binti — maaari itong magdulot ng higit na pinsala.",
 "Huwag magbigay ng alak o kapeina.",
-"Huwag painitin nang napakabilis gamit ang mainit na tubig o direktang init.",
+"Huwag painitin nang napakabilis gamit ang mainit na tubig o direktang init."
 ],
 uiLabels: {
 emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang "burn", "choking", "seizure", o "bleeding".',
