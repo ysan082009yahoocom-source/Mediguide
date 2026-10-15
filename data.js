@@ -420,47 +420,47 @@ precautions: [
         doNotTitle: "⛔ Do NOT"
       }
 },
-{
-id: "poisoning",
-title: "Poisoning",
-icon: "☠️",
-keywords: ["poison", "overdose", "chemical", "toxic", "ingested", "swallowed", "fumes"],
-summary: "Identify the poison and get expert help immediately.",
-callEmergency: [
-"The person is unconscious, having seizures, or having trouble breathing",
-"A large or unknown amount of poison was taken",
-"The poison is corrosive, chemical, or a suspected overdose"
-],
-symptoms: [
-"Nausea, vomiting, or abdominal pain",
-"Burns or stains around the mouth",
-"Drowsiness, confusion, or seizures",
-"Difficulty breathing",
-"Empty pill bottles or chemical containers nearby"
-],
-steps: [
-"Call emergency services or poison control immediately.",
-"Move the person to fresh air if poison was inhaled.",
-"If poison touched skin or eyes, rinse with running water for 15–20 minutes.",
-"Keep the person still and monitor breathing and responsiveness.",
-"Save the container, label, or sample of the poison for responders.",
-"Start CPR if the person becomes unresponsive and is not breathing normally."
-],
-medKit: ["Gloves", "Phone to call poison control", "Water for rinsing", "CPR face shield"],
-precautions: [
-"Do not induce vomiting unless specifically told to by poison control.",
-"Do not give food or drink unless advised by a professional.",
-"Do not try to neutralize the poison with vinegar, lemon, or other home remedies."
-],
-     uiLabels: {
-        emptyState: '🔍 No emergencies match your search.<br />Try “burn”, “choking”, “seizure”, or “bleeding”.',
+    {
+      id: "poisoning",
+      title: "Poisoning",
+      icon: "☠️",
+      keywords: ["poison", "overdose", "chemical", "toxic", "ingested", "swallowed", "fumes"],
+      summary: "Identify the poison and get expert help immediately.",
+      callEmergency: [
+        "The person is unconscious, having seizures, or having trouble breathing",
+        "A large or unknown amount of poison was taken",
+        "The poison is corrosive, chemical, or a suspected overdose"
+      ],
+      symptoms: [
+        "Nausea, vomiting, or abdominal pain",
+        "Burns or stains around the mouth",
+        "Drowsiness, confusion, or seizures",
+        "Difficulty breathing",
+        "Empty pill bottles or chemical containers nearby"
+      ],
+      steps: [
+        "Call emergency services or poison control immediately.",
+        "Move the person to fresh air if poison was inhaled.",
+        "If poison touched skin or eyes, rinse with running water for 15–20 minutes.",
+        "Keep the person still and monitor breathing and responsiveness.",
+        "Save the container, label, or sample of the poison for responders.",
+        "Start CPR if the person becomes unresponsive and is not breathing normally."
+      ],
+      medKit: ["Gloves", "Phone to call poison control", "Water for rinsing", "CPR face shield"],
+      precautions: [
+        "Do not induce vomiting unless specifically told to by poison control.",
+        "Do not give food or drink unless advised by a professional.",
+        "Do not try to neutralize the poison with vinegar, lemon, or other home remedies."
+      ],
+      uiLabels: {
+        emptyState: '🔍 No emergencies match your search.<br />Try "burn", "choking", "seizure", or "bleeding".',
         callEmergencyTitle: "📞 Call emergency services immediately if:",
         recognizeSigns: "👀 Recognize the signs",
         firstAidTitle: "🩹 First aid — step by step",
         medKitTitle: "🧰 Med kit items to use",
         doNotTitle: "⛔ Do NOT"
       }
-},
+    },
 {
 id: "stroke",
 title: "Stroke (FAST)",
