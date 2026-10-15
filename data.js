@@ -584,94 +584,94 @@ precautions: [
       }
 }
 ],
-tl: [
-{
-id: "severe-bleeding",
-title: "Malalang Pagdurugo",
-icon: "🩸",
-keywords: ["pagdurugo", "dugo", "sugat", "hiwa", "buka"],
-summary: "Kontrolin ang malakas na pagkawala ng dugo mula sa sugat gamit ang presyur at mga bendahe.",
-callEmergency: [
-"Ang dugo ay bumubuga o patuloy na dumadaloy mula sa sugat",
-"Hindi tumitigil ang pagdurugo pagkatapos ng 10 minutong madiing pagpindot",
-"Ang sugat ay malaki, malalim, o sanhi ng isang malubhang pinsala",
-"Ang tao ay nagpapakita ng mga palatandaan ng shock (maputla, malamig ang pawis, nalilito, mahina)"
-],
-symptoms: [
-"Patuloy o bumubugang daloy ng dugo",
-"Dugo na tumatagos sa damit o bendahe",
-"Maputla, malamig, at basang-basa ng pawis na balat",
-"Pakahilo, panghihina, o pagkalito",
-"Mabilis na tibok ng puso o mababaw na paghinga"
-],
-steps: [
-"Magsuot ng disposable gloves kung mayroon at ilantad ang sugat.",
-"Maglapat ng madiin at direktang presyur gamit ang sterile gauze pad o malinis na tela.",
-"Kung tumagos ang dugo, magdagdag pa ng gauze sa ibabaw — huwag alisin ang unang layer.",
-"Kung ang sugat ay nasa braso o binti at walang pinaghihinalaang bali, itaas ito nang mas mataas sa puso.",
-"I-secure ang dressing nang mahigpit gamit ang bandage kapag kontrolado na ang pagdurugo.",
-"Panatilihing mainit, nakahiga, at kalmado ang tao, at bantayan ang mga senyales ng shock.",
-"Ipagpatuloy ang madiing pagpindot hanggang sa dumating ang tulong kung malala ang pagdurugo."
-],
-medKit: ["Disposable gloves", "Sterile gauze pads", "Roller bandage", "Adhesive tape", "Trauma dressing", "Antiseptic wipes", "Emergency blanket"],
-precautions: [
-"Huwag alisin ang bumaong bagay — lagyan ng padding sa paligid nito at idiin sa gilid nito.",
-"Huwag alisin ang unang dressing na basa ng dugo; magdagdag na lang ng mga layer sa ibabaw.",
-"Huwag gumamit ng tourniquet maliban kung ikaw ay sanay at ang pagdurugo ay kritikal sa buhay."
-],
-uiLabels: {
-emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang "burn", "choking", "seizure", o "bleeding".',
-callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
-recognizeSigns: "👀 Kilalanin ang mga senyales",
-firstAidTitle: "🩹 Unang lunas — hakbang-hakbang",
-medKitTitle: "🧰 Mga gamit sa Med kit na gagamitin",
-doNotTitle: "⛔ Huwag Gawin"
-}
-},
-{
-id: "burns",
-title: "Mga Pasiyok at Paso",
-icon: "🔥",
-keywords: ["paso", "pasiyok", "apoy", "init", "paltos", "mainit na tubig", "singaw"],
-summary: "Palamigin ang paso, protektahan ang balat, at iwasan ang impeksyon.",
-callEmergency: [
-"Ang paso ay malaki, malalim, o nakakaapekto sa mukha, kamay, paa, kasukasuan, o ari",
-"Ang paso ay sanhi ng kemikal o kuryente",
-"Nahihirapang huminga ang tao o nakalanghap ng usok",
-"Ang paso ay nasa bata, sanggol, o matanda",
-"May mga palatandaan ng shock"
-],
-symptoms: [
-"Namumula at masakit na balat (superficial burn)",
-"Mga paltos o basang balat (partial-thickness burn)",
-"Puti, sunog, o namamanhid na balat (deep burn)",
-"Pamamaga sa paligid ng pasong bahagi",
-"Nahihirapang huminga kung nakalanghap ng usok"
-],
-steps: [
-"Ilayo ang tao mula sa pinagmulan ng paso.",
-"Palamigin ang paso sa ilalim ng umaagos na tubig (hindi yelo) sa loob ng 10–20 minuto.",
-"Alisin ang mga singsing, orasan, o masikip na damit bago magsimula ang pamamaga.",
-"Takpan ang paso nang maluwag gamit ang sterile non-stick dressing o malinis na cling film.",
-"Protektahan ang tao sa lamig at bantayan kung magpapakita ng shock.",
-"Huwag putukin ang mga paltos — iwanang buo upang mabawasan ang panganib ng inheksyon."
-],
-medKit: ["Burn gel / hydrogel dressing", "Sterile non-stick dressings", "Cling film", "Running water", "Disposable gloves", "Emergency blanket"],
-precautions: [
-"Huwag lagyan ng yelo, mantikilya, toothpaste, o mga cream ang paso.",
-"Huwag putukin ang mga paltos o alisin ang damit na dumikit sa paso.",
-"Huwag gumamit ng mga adhesive dressing nang direkta sa pasong balat."
-],
-uiLabels: {
-emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang "burn", "choking", "seizure", o "bleeding".',
-callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
-recognizeSigns: "👀 Kilalanin ang mga senyales",
-firstAidTitle: "🩹 Unang lunas — hakbang-hangbang",
-medKitTitle: "🧰 Mga gamit sa Med kit na gagamitin",
-doNotTitle: "⛔ Huwag Gawin"
-}
-},
-      {
+  tl: [
+    {
+      id: "severe-bleeding",
+      title: "Malalang Pagdurugo",
+      icon: "🩸",
+      keywords: ["pagdurugo", "dugo", "sugat", "hiwa", "buka"],
+      summary: "Kontrolin ang malakas na pagkawala ng dugo mula sa sugat gamit ang presyur at mga bendahe.",
+      callEmergency: [
+        "Ang dugo ay bumubuga o patuloy na dumadaloy mula sa sugat",
+        "Hindi tumitigil ang pagdurugo pagkatapos ng 10 minutong madiing pagpindot",
+        "Ang sugat ay malaki, malalim, o sanhi ng isang malubhang pinsala",
+        "Ang tao ay nagpapakita ng mga palatandaan ng shock (maputla, malamig ang pawis, nalilito, mahina)"
+      ],
+      symptoms: [
+        "Patuloy o bumubugang daloy ng dugo",
+        "Dugo na tumatagos sa damit o bendahe",
+        "Maputla, malamig, at basang-basa ng pawis na balat",
+        "Pakahilo, panghihina, o pagkalito",
+        "Mabilis na tibok ng puso o mababaw na paghinga"
+      ],
+      steps: [
+        "Magsuot ng disposable gloves kung mayroon at ilantad ang sugat.",
+        "Maglapat ng madiin at direktang presyur gamit ang sterile gauze pad o malinis na tela.",
+        "Kung tumagos ang dugo, magdagdag pa ng gauze sa ibabaw — huwag alisin ang unang layer.",
+        "Kung ang sugat ay nasa braso o binti at walang pinaghihinalaang bali, itaas ito nang mas mataas sa puso.",
+        "I-secure ang dressing nang mahigpit gamit ang bandage kapag kontrolado na ang pagdurugo.",
+        "Panatilihing mainit, nakahiga, at kalmado ang tao, at bantayan ang mga senyales ng shock.",
+        "Ipagpatuloy ang madiing pagpindot hanggang sa dumating ang tulong kung malala ang pagdurugo."
+      ],
+      medKit: ["Disposable gloves", "Sterile gauze pads", "Roller bandage", "Adhesive tape", "Trauma dressing", "Antiseptic wipes", "Emergency blanket"],
+      precautions: [
+        "Huwag alisin ang bumaong bagay — lagyan ng padding sa paligid nito at idiin sa gilid nito.",
+        "Huwag alisin ang unang dressing na basa ng dugo; magdagdag na lang ng mga layer sa ibabaw.",
+        "Huwag gumamit ng tourniquet maliban kung ikaw ay sanay at ang pagdurugo ay kritikal sa buhay."
+      ],
+      uiLabels: {
+        emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang "burn", "choking", "seizure", o "bleeding".',
+        callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
+        recognizeSigns: "👀 Kilalanin ang mga senyales",
+        firstAidTitle: "🩹 Unang lunas — hakbang-hakbang",
+        medKitTitle: "🧰 Mga gamit sa Med kit na gagamitin",
+        doNotTitle: "⛔ Huwag Gawin"
+      }
+    },
+    {
+      id: "burns",
+      title: "Mga Pasiyok at Paso",
+      icon: "🔥",
+      keywords: ["paso", "pasiyok", "apoy", "init", "paltos", "mainit na tubig", "singaw"],
+      summary: "Palamigin ang paso, protektahan ang balat, at iwasan ang impeksyon.",
+      callEmergency: [
+        "Ang paso ay malaki, malalim, o nakakaapekto sa mukha, kamay, paa, kasukasuan, o ari",
+        "Ang paso ay sanhi ng kemikal o kuryente",
+        "Nahihirapang huminga ang tao o nakalanghap ng usok",
+        "Ang paso ay nasa bata, sanggol, o matanda",
+        "May mga palatandaan ng shock"
+      ],
+      symptoms: [
+        "Namumula at masakit na balat (superficial burn)",
+        "Mga paltos o basang balat (partial-thickness burn)",
+        "Puti, sunog, o namamanhid na balat (deep burn)",
+        "Pamamaga sa paligid ng pasong bahagi",
+        "Nahihirapang huminga kung nakalanghap ng usok"
+      ],
+      steps: [
+        "Ilayo ang tao mula sa pinagmulan ng paso.",
+        "Palamigin ang paso sa ilalim ng umaagos na tubig (hindi yelo) sa loob ng 10–20 minuto.",
+        "Alisin ang mga singsing, orasan, o masikip na damit bago magsimula ang pamamaga.",
+        "Takpan ang paso nang maluwag gamit ang sterile non-stick dressing o malinis na cling film.",
+        "Protektahan ang tao sa lamig at bantayan kung magpapakita ng shock.",
+        "Huwag putukin ang mga paltos — iwanang buo upang mabawasan ang panganib ng inheksyon."
+      ],
+      medKit: ["Burn gel / hydrogel dressing", "Sterile non-stick dressings", "Cling film", "Running water", "Disposable gloves", "Emergency blanket"],
+      precautions: [
+        "Huwag lagyan ng yelo, mantikilya, toothpaste, o mga cream ang paso.",
+        "Huwag putukin ang mga paltos o alisin ang damit na dumikit sa paso.",
+        "Huwag gumamit ng mga adhesive dressing nang direkta sa pasong balat."
+      ],
+      uiLabels: {
+        emptyState: '🔍 Walang tugmang emergency sa iyong hinahanap.<br />Subukan ang "burn", "choking", "seizure", o "bleeding".',
+        callEmergencyTitle: "📞 Tumawag agad sa emergency services kung:",
+        recognizeSigns: "👀 Kilalanin ang mga senyales",
+        firstAidTitle: "🩹 Unang lunas — hakbang-hangbang",
+        medKitTitle: "🧰 Mga gamit sa Med kit na gagamitin",
+        doNotTitle: "⛔ Huwag Gawin"
+      }
+    },
+    {
       id: "choking-adult",
       title: "Nabilaukan (Matanda at Bata)",
       icon: "🤢",
